@@ -1,0 +1,87 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3534e5db53078ddc261399f5e2818db8117bad94.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3534e5db53078ddc261399f5e2818db8117bad94.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3534e5db53078ddc261399f5e2818db8117bad94.001.1",
+    "areaDesc": "Parker Valley; Chuckwalla Mountains; Imperial County Southeast; Palo Verde Valley; Chuckwalla Valley",
+    "geocode": {
+      "SAME": [
+        "004012",
+        "006025",
+        "006065"
+      ],
+      "UGC": [
+        "AZZ530",
+        "CAZ564",
+        "CAZ565",
+        "CAZ569",
+        "CAZ570"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/AZZ530",
+      "https://api.weather.gov/zones/forecast/CAZ564",
+      "https://api.weather.gov/zones/forecast/CAZ565",
+      "https://api.weather.gov/zones/forecast/CAZ569",
+      "https://api.weather.gov/zones/forecast/CAZ570"
+    ],
+    "references": [],
+    "sent": "2026-10-14T00:15:00-07:00",
+    "effective": "2026-10-14T00:15:00-07:00",
+    "onset": "2026-10-15T23:00:00-07:00",
+    "expires": "2026-10-14T17:00:00-07:00",
+    "ends": "2026-10-16T06:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Phoenix AZ",
+    "headline": "Wind Advisory issued October 14 at 12:15AM MST until October 16 at 6:00AM MST by NWS Phoenix AZ",
+    "description": "* WHAT...North winds 20 to 30 mph with gusts up to 45 mph expected.\n\n* WHERE...In Arizona, Parker Valley. In California, Chuckwalla\nMountains, Chuckwalla Valley, Imperial County Southeast, and Palo\nVerde Valley.\n\n* WHEN...From 11 PM MST /11 PM PDT/ Thursday to 6 AM MST /6 AM PDT/\nFriday.\n\n* IMPACTS...Difficult driving conditions, especially for larger\nvehicles traveling along roads with crosswinds. Light, unsecured\nobjects may become airborne.",
+    "instruction": "A Wind Advisory means that sustained wind speeds of between 30 and 40\nmph are expected, or wind gusts of between 40 and 58 mph. Winds this\nstrong can make driving difficult, especially for high profile\nvehicles.\n\nIn addition, strong winds over desert areas could result in briefly\nlowered visibilities to well under a mile at times in blowing dust or\nblowing sand. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWPSR"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KPSR 140715"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT FROM 11 PM MST /11 PM PDT/ THURSDAY TO 6 AM MST /6 AM PDT/ FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KPSR.WI.Y.0023.261016T0600Z-261016T1300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T06:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T10:17:57+00:00"
+}

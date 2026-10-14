@@ -1,0 +1,92 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03a67c0a6d220122d73c834da96efe866e3b2a79.003.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03a67c0a6d220122d73c834da96efe866e3b2a79.003.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.03a67c0a6d220122d73c834da96efe866e3b2a79.003.1",
+    "areaDesc": "San Diego County Inland Valleys; San Diego County Mountains",
+    "geocode": {
+      "SAME": [
+        "006073"
+      ],
+      "UGC": [
+        "CAZ050",
+        "CAZ058"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ050",
+      "https://api.weather.gov/zones/forecast/CAZ058"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb785efe2567ec1934e6ef3b909ca3beaca06abf.003.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.eb785efe2567ec1934e6ef3b909ca3beaca06abf.003.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T21:25:00-07:00"
+      }
+    ],
+    "sent": "2026-10-14T01:53:00-07:00",
+    "effective": "2026-10-14T01:53:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-14T15:30:00-07:00",
+    "ends": "2026-10-18T00:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "High Wind Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "High Wind Watch issued October 14 at 1:53AM PDT until October 18 at 12:00AM PDT by NWS San Diego CA",
+    "description": "* WHAT...Northeast winds 25 to 35 mph with gusts to 50 mph possible.\nGusts to 65 mph on the coastal slopes of the mountains.\n\n* WHERE...San Diego County Mountains and San Diego County Valleys.\n\n* WHEN...From Thursday morning through Saturday evening.\n\n* IMPACTS...Damaging winds could blow down trees and power lines.\nPower outages are possible. Travel could be difficult, especially\nfor high profile vehicles.",
+    "instruction": "Monitor the latest forecasts and warnings for updates.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 140853"
+      ],
+      "NWSheadline": [
+        "HIGH WIND WATCH REMAINS IN EFFECT FROM THURSDAY MORNING THROUGH SATURDAY EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.HW.A.0004.261015T1300Z-261018T0700Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-18T00:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c2f237643f9830256cce367afe0e39c336727474.003.1,2026-10-13T11:11:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "HWA"
+      ],
+      "NationalWeatherService": [
+        "HWA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T10:17:57+00:00"
+}

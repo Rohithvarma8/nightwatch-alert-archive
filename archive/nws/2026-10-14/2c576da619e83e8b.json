@@ -1,0 +1,89 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cf3b943d8aa774bc20e85871ae6de71f7bd25c8.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cf3b943d8aa774bc20e85871ae6de71f7bd25c8.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.1cf3b943d8aa774bc20e85871ae6de71f7bd25c8.001.1",
+    "areaDesc": "Tehachapi Area; Fort Tejon",
+    "geocode": {
+      "SAME": [
+        "006029"
+      ],
+      "UGC": [
+        "CAZ596",
+        "CAZ597"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ596",
+      "https://api.weather.gov/zones/fire/CAZ597"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5fefdd872e7a3c49a4346e8b444ff2e2312eb6c7.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.5fefdd872e7a3c49a4346e8b444ff2e2312eb6c7.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T17:33:00-07:00"
+      }
+    ],
+    "sent": "2026-10-14T00:37:00-07:00",
+    "effective": "2026-10-14T00:37:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-14T10:00:00-07:00",
+    "ends": "2026-10-16T22:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Fire Weather Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Fire Weather Watch issued October 14 at 12:37AM PDT until October 16 at 10:00PM PDT by NWS Hanford CA",
+    "description": "* AFFECTED AREA...Fire weather zone 596 Tehachapi Area. Fire\nweather zone 597 Fort Tejon.\n\n* WIND...STRONG EAST WINDS EXPECTED. A 30 TO 50 PERCENT\nPROBABILITY OF GUSTS EXCEEDING 40 MPH ON THURSDAY. A 60 TO 80\nPERCENT PROBABILITY OF GUSTS EXCEEDING 40 MPH ON FRIDAY.\n\n* HUMIDITY...MINIMUM RELATIVE HUMIDITY BETWEEN 15-25 PERCENT\nBOTHDAYS.\n\n* THUNDERSTORMS...NO THUNDERSTORM THREAT.\n\n* HIGHEST THREAT...IS LOCATED FROM PINE MOUNTAIN CLUB THROUGH\nFRAZIER PKRK AND TO FORT TEJON.\n\n* IMPACTS...any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+    "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 140737"
+      ],
+      "NWSheadline": [
+        "FIRE WEATHER WATCH REMAINS IN EFFECT FROM THURSDAY MORNING THROUGH FRIDAY EVENING FOR STRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE KERN COUNTY MOUNTAINS"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KHNX.FW.A.0003.261015T1300Z-261017T0500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T22:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7f08d3fa3959319a9f023ef0ad1d7625ca506071.001.1,2026-10-13T09:50:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T10:17:57+00:00"
+}
