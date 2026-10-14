@@ -1,0 +1,87 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf52437258aa9fcd48d72b4af81128ad282a0055.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf52437258aa9fcd48d72b4af81128ad282a0055.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.bf52437258aa9fcd48d72b4af81128ad282a0055.001.1",
+    "areaDesc": "San Diego County Coastal Areas; Orange County Coastal",
+    "geocode": {
+      "SAME": [
+        "006073",
+        "006059"
+      ],
+      "UGC": [
+        "CAZ043",
+        "CAZ552"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ043",
+      "https://api.weather.gov/zones/forecast/CAZ552"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a541c5fa08ef052124086c57038dfaefd9cd2e09.001.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.a541c5fa08ef052124086c57038dfaefd9cd2e09.001.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T13:53:00-07:00"
+      }
+    ],
+    "sent": "2026-10-13T21:29:00-07:00",
+    "effective": "2026-10-13T21:29:00-07:00",
+    "onset": "2026-10-13T21:29:00-07:00",
+    "expires": "2026-10-14T06:15:00-07:00",
+    "ends": "2026-10-15T14:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Beach Hazards Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Beach Hazards Statement issued October 13 at 9:29PM PDT until October 15 at 2:00PM PDT by NWS San Diego CA",
+    "description": "* WHAT...Elevated high tides 6.5 to 7 ft will continue through\nThursday with surf of 3 to 6 ft with sets to 7 ft expected.\n\n* WHERE...San Diego County Coastal Areas and Orange County\nCoastal Areas.\n\n* WHEN...Through Thursday afternoon.\n\n* IMPACTS...Minor coastal flooding and beach erosion.\n\n* ADDITIONAL DETAILS...High tides will fall below 6.5 ft after\nthe Thursday high tide. A south swell from 190 degrees of 3 ft\nwith a 15 to 17 second period will be present through\nThursday. A moderate period, persistent south swell from 190\nwill continue into next week.",
+    "instruction": "Remain out of the water to avoid hazardous swimming conditions.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "CFWSGX"
+      ],
+      "WMOidentifier": [
+        "WHUS46 KSGX 140429"
+      ],
+      "NWSheadline": [
+        "BEACH HAZARDS STATEMENT REMAINS IN EFFECT THROUGH THURSDAY AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.BH.S.0014.000000T0000Z-261015T2100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-15T14:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "BHS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T05:16:16+00:00"
+}

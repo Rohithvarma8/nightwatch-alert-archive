@@ -1,0 +1,89 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb785efe2567ec1934e6ef3b909ca3beaca06abf.005.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.eb785efe2567ec1934e6ef3b909ca3beaca06abf.005.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.eb785efe2567ec1934e6ef3b909ca3beaca06abf.005.1",
+    "areaDesc": "Santa Ana Mountains and Foothills",
+    "geocode": {
+      "SAME": [
+        "006059",
+        "006065",
+        "006073"
+      ],
+      "UGC": [
+        "CAZ057"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ057"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c2f237643f9830256cce367afe0e39c336727474.005.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.c2f237643f9830256cce367afe0e39c336727474.005.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T11:11:00-07:00"
+      }
+    ],
+    "sent": "2026-10-13T21:25:00-07:00",
+    "effective": "2026-10-13T21:25:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-14T06:15:00-07:00",
+    "ends": "2026-10-16T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "High Wind Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "High Wind Watch issued October 13 at 9:25PM PDT until October 16 at 8:00PM PDT by NWS San Diego CA",
+    "description": "* WHAT...Northeast winds 25 to 35 mph with gusts up to 60 mph\npossible.\n\n* WHERE...Santa Ana Mountains and Foothills.\n\n* WHEN...From Thursday morning through Friday evening.\n\n* IMPACTS...Damaging winds could blow down trees and power lines.\nPower outages are possible. Travel could be difficult, especially\nfor high profile vehicles.",
+    "instruction": "Monitor the latest forecasts and warnings for updates. Protect\nproperty that may be damaged from high winds.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 140425"
+      ],
+      "NWSheadline": [
+        "HIGH WIND WATCH REMAINS IN EFFECT FROM THURSDAY MORNING THROUGH FRIDAY EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.HW.A.0004.261015T1300Z-261017T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T20:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "HWA"
+      ],
+      "NationalWeatherService": [
+        "HWA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T05:16:16+00:00"
+}
