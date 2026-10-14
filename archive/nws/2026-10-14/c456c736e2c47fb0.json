@@ -1,0 +1,81 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9250129718112daa0e61290c4e2186dfbee5c456.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9250129718112daa0e61290c4e2186dfbee5c456.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.9250129718112daa0e61290c4e2186dfbee5c456.001.1",
+    "areaDesc": "Indian Wells Valley; Mojave Desert Slopes; Mojave Desert",
+    "geocode": {
+      "SAME": [
+        "006029"
+      ],
+      "UGC": [
+        "CAZ337",
+        "CAZ338",
+        "CAZ339"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ337",
+      "https://api.weather.gov/zones/forecast/CAZ338",
+      "https://api.weather.gov/zones/forecast/CAZ339"
+    ],
+    "references": [],
+    "sent": "2026-10-14T10:25:00-07:00",
+    "effective": "2026-10-14T10:25:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-14T18:30:00-07:00",
+    "ends": "2026-10-16T22:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Wind Advisory issued October 14 at 10:25AM PDT until October 16 at 10:00PM PDT by NWS Hanford CA",
+    "description": "* WHAT...Northeast winds 25 to 35 mph with gusts up to 55 mph\nexpected.\n\n* WHERE...Indian Wells Valley, Mojave Desert, and Mojave Desert\nSlopes.\n\n* WHEN...From 6 AM Thursday to 10 PM PDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KHNX 141725"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT FROM 6 AM THURSDAY TO 10 PM PDT FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KHNX.WI.Y.0032.261015T1300Z-261017T0500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T22:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T19:26:46+00:00"
+}
