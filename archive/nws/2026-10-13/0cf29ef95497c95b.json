@@ -1,0 +1,84 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc30555d3ba5ec4949874d85047961c20f8fcf4a.003.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc30555d3ba5ec4949874d85047961c20f8fcf4a.003.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.bc30555d3ba5ec4949874d85047961c20f8fcf4a.003.1",
+    "areaDesc": "Owens Valley North",
+    "geocode": {
+      "SAME": [
+        "006027"
+      ],
+      "UGC": [
+        "CAZ582"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ582"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23508bb8327f20900089f335d7b8e7edb76ab9a9.001.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.23508bb8327f20900089f335d7b8e7edb76ab9a9.001.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-12T23:16:00-07:00"
+      }
+    ],
+    "sent": "2026-10-13T09:58:00-07:00",
+    "effective": "2026-10-13T09:58:00-07:00",
+    "onset": "2026-10-14T00:00:00-07:00",
+    "expires": "2026-10-14T00:00:00-07:00",
+    "ends": "2026-10-14T08:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Freeze Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Freeze Warning issued October 13 at 9:58AM PDT until October 14 at 8:00AM PDT by NWS Las Vegas NV",
+    "description": "* WHAT...Temperatures between 28 to 32 are expected early Wednesday\nmorning.\n\n* WHERE...Northern Owens Valley.\n\n* WHEN...From midnight tonight to 8 AM PDT Wednesday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+    "instruction": "Take steps now to protect tender plants from the cold.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWVEF"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KVEF 131658"
+      ],
+      "NWSheadline": [
+        "FREEZE WARNING REMAINS IN EFFECT FROM MIDNIGHT TONIGHT TO 8 AM PDT WEDNESDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KVEF.FZ.W.0003.261014T0700Z-261014T1500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-14T08:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FZW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T00:29:55+00:00"
+}

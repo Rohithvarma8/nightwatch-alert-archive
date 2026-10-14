@@ -1,0 +1,80 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a541c5fa08ef052124086c57038dfaefd9cd2e09.001.2",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a541c5fa08ef052124086c57038dfaefd9cd2e09.001.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.a541c5fa08ef052124086c57038dfaefd9cd2e09.001.2",
+    "areaDesc": "San Diego County Coastal Areas; Orange County Coastal",
+    "geocode": {
+      "SAME": [
+        "006073",
+        "006059"
+      ],
+      "UGC": [
+        "CAZ043",
+        "CAZ552"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ043",
+      "https://api.weather.gov/zones/forecast/CAZ552"
+    ],
+    "references": [],
+    "sent": "2026-10-13T13:53:00-07:00",
+    "effective": "2026-10-13T13:53:00-07:00",
+    "onset": "2026-10-13T14:00:00-07:00",
+    "expires": "2026-10-13T22:15:00-07:00",
+    "ends": "2026-10-15T14:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Beach Hazards Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Beach Hazards Statement issued October 13 at 1:53PM PDT until October 15 at 2:00PM PDT by NWS San Diego CA",
+    "description": "* WHAT...Elevated high tides 6.5 to 7 ft will continue through\nThursday with surf of 3 to 6 ft, with sets to 7 ft expected.\n\n* WHERE...San Diego County Coastal Areas and Orange County\nCoastal Areas.\n\n* WHEN...Through Thursday afternoon.\n\n* IMPACTS...Minor coastal flooding and beach erosion.\n\n* ADDITIONAL DETAILS...High tides will fall below 6.5 ft after the\nThursday high tide. A south swell from 190 degrees of 3 ft with\na 15 to 17 second period will be present through Thursday. A\nmoderate period, persistent south swell from 190 will continue\ninto next week.",
+    "instruction": "Remain out of the water to avoid hazardous swimming conditions.\nHeed the advice of local officials if visiting beaches recently\nimpacted by significant coastal flooding and beach erosion.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "CFWSGX"
+      ],
+      "WMOidentifier": [
+        "WHUS46 KSGX 132053"
+      ],
+      "NWSheadline": [
+        "BEACH HAZARDS STATEMENT IN EFFECT THROUGH THURSDAY AFTERNOON... ...COASTAL FLOOD ADVISORY WILL EXPIRE AT 2 PM PDT THIS AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KSGX.BH.S.0014.261013T2100Z-261015T2100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-15T14:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "BHS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T00:29:55+00:00"
+}

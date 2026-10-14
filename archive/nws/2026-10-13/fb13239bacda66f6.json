@@ -1,0 +1,110 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9fd0225d7dd28ca131cdeda8894d4087b91d7d0.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9fd0225d7dd28ca131cdeda8894d4087b91d7d0.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.d9fd0225d7dd28ca131cdeda8894d4087b91d7d0.001.1",
+    "areaDesc": "Ventura County Beaches; Malibu Coast; Los Angeles County Beaches",
+    "geocode": {
+      "SAME": [
+        "006111",
+        "006037"
+      ],
+      "UGC": [
+        "CAZ354",
+        "CAZ362",
+        "CAZ366"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ354",
+      "https://api.weather.gov/zones/forecast/CAZ362",
+      "https://api.weather.gov/zones/forecast/CAZ366"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f803fea8df469b64695c02e596e3bb39dfeb198a.001.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.f803fea8df469b64695c02e596e3bb39dfeb198a.001.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T08:39:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f803fea8df469b64695c02e596e3bb39dfeb198a.002.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.f803fea8df469b64695c02e596e3bb39dfeb198a.002.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T08:39:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28f7c717e113b2f93a42fa7737e76322f3fbe8cf.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.28f7c717e113b2f93a42fa7737e76322f3fbe8cf.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T13:27:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.28f7c717e113b2f93a42fa7737e76322f3fbe8cf.002.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.28f7c717e113b2f93a42fa7737e76322f3fbe8cf.002.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-13T13:27:00-07:00"
+      }
+    ],
+    "sent": "2026-10-13T16:20:00-07:00",
+    "effective": "2026-10-13T16:20:00-07:00",
+    "onset": "2026-10-13T16:20:00-07:00",
+    "expires": "2026-10-14T15:00:00-07:00",
+    "ends": "2026-10-15T14:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Beach Hazards Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Beach Hazards Statement issued October 13 at 4:20PM PDT until October 15 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Minor tidal overflow during times of high tides,\ndangerous rip currents, and elevated surf.\n\n* WHERE...Ventura County Beaches, Malibu Coast and Los Angeles\nCounty Beaches.\n\n* WHEN...Through Thursday afternoon.\n\n* IMPACTS...Minor flooding of sea water is likely around high\ntide at low-lying beach and harbor areas that is uncommon with\nnormal tidal ranges. Enhanced beach erosion is possible. The\nrisk for significant damage is very low. There is an increased\nrisk of ocean drowning. Rip currents can pull swimmers and\nsurfers out to sea. Waves can wash people off beaches and\nrocks, and capsize small boats nearshore.\n\n* ADDITIONAL DETAILS...Minor tidal overflow during morning high\ntides of 6.5 to 7.0 feet.",
+    "instruction": "Take the necessary actions to protect flood-prone property. Do\nNOT drive around barricades or through water of unknown depth.\n\nRemain out of the water due to hazardous swimming conditions, or\nstay near occupied lifeguard towers. Rock jetties can be deadly\nin such conditions, stay off the rocks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "CFWLOX"
+      ],
+      "WMOidentifier": [
+        "WHUS46 KLOX 132320"
+      ],
+      "NWSheadline": [
+        "BEACH HAZARDS STATEMENT REMAINS IN EFFECT THROUGH THURSDAY AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KLOX.BH.S.0021.000000T0000Z-261015T2100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-15T14:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcfea7ad61c39a655fb8d85c1df112a489a37963.002.2,2026-10-12T20:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.bcfea7ad61c39a655fb8d85c1df112a489a37963.001.2,2026-10-12T20:40:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.449d6e67dc756e487002fa43b4e9d5087af1b30c.004.2,2026-10-12T20:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.449d6e67dc756e487002fa43b4e9d5087af1b30c.003.2,2026-10-12T20:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.286b9773a6bcd3d60e50b709cf2a2aeebe17db79.003.2,2026-10-12T13:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.286b9773a6bcd3d60e50b709cf2a2aeebe17db79.002.2,2026-10-12T13:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5b105d7c443001cbf397ebef6cd1430206c13576.003.2,2026-10-12T09:33:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5b105d7c443001cbf397ebef6cd1430206c13576.002.2,2026-10-12T09:33:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.63ec919b71348b386f9f441a8dff859581a9f79d.003.1,2026-10-11T21:02:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.63ec919b71348b386f9f441a8dff859581a9f79d.002.1,2026-10-11T21:02:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "BHS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T00:29:55+00:00"
+}

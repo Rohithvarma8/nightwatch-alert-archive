@@ -1,0 +1,96 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5392edcfd91c611e21fb55b90f8675c06901d3ea.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5392edcfd91c611e21fb55b90f8675c06901d3ea.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.5392edcfd91c611e21fb55b90f8675c06901d3ea.001.1",
+    "areaDesc": "Southwestern Humboldt; Southeastern Interior Humboldt; Southern Trinity; Northwestern Interior Mendocino; Northeastern Interior Mendocino; Northern Lake; Northwestern and Central Trinity; Northeastern Trinity; Eastern Lake",
+    "geocode": {
+      "SAME": [
+        "006023",
+        "006105",
+        "006045",
+        "006033"
+      ],
+      "UGC": [
+        "CAZ104",
+        "CAZ106",
+        "CAZ108",
+        "CAZ110",
+        "CAZ111",
+        "CAZ114",
+        "CAZ116",
+        "CAZ117",
+        "CAZ120"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ104",
+      "https://api.weather.gov/zones/forecast/CAZ106",
+      "https://api.weather.gov/zones/forecast/CAZ108",
+      "https://api.weather.gov/zones/forecast/CAZ110",
+      "https://api.weather.gov/zones/forecast/CAZ111",
+      "https://api.weather.gov/zones/forecast/CAZ114",
+      "https://api.weather.gov/zones/forecast/CAZ116",
+      "https://api.weather.gov/zones/forecast/CAZ117",
+      "https://api.weather.gov/zones/forecast/CAZ120"
+    ],
+    "references": [],
+    "sent": "2026-10-13T10:20:00-07:00",
+    "effective": "2026-10-13T10:20:00-07:00",
+    "onset": "2026-10-14T01:00:00-07:00",
+    "expires": "2026-10-13T18:30:00-07:00",
+    "ends": "2026-10-14T08:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Frost Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Eureka CA",
+    "headline": "Frost Advisory issued October 13 at 10:20AM PDT until October 14 at 8:00AM PDT by NWS Eureka CA",
+    "description": "* WHAT...Temperatures as low as 33 will likely result in frost\nformation.\n\n* WHERE...Trinity County, Southern Humboldt, Northern Mendocino\nInterior, Northern Lake, and Eastern Lake.\n\n* WHEN...From 1 AM to 8 AM PDT Wednesday.\n\n* IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive\noutdoor plants may be killed if left uncovered.",
+    "instruction": "Take steps now to protect tender plants from the cold.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWEKA"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KEKA 131720"
+      ],
+      "NWSheadline": [
+        "FROST ADVISORY IN EFFECT FROM 1 AM TO 8 AM PDT WEDNESDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KEKA.FR.Y.0022.261014T0800Z-261014T1500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-14T08:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FRY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T00:29:55+00:00"
+}

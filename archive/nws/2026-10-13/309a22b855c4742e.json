@@ -1,0 +1,94 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a368c9d42ef1e1b52e1e249676078ee2bb68528.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a368c9d42ef1e1b52e1e249676078ee2bb68528.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.8a368c9d42ef1e1b52e1e249676078ee2bb68528.002.1",
+    "areaDesc": "Santa Clarita Valley; Central Ventura County Valleys; Eastern Santa Monica Mountains Recreational Area; Calabasas and Agoura Hills; Western San Fernando Valley; Eastern San Fernando Valley; Southeastern Ventura County Valleys; Southern Ventura County Mountains; Northern Ventura County Mountains",
+    "geocode": {
+      "SAME": [
+        "006037",
+        "006111"
+      ],
+      "UGC": [
+        "CAZ088",
+        "CAZ358",
+        "CAZ370",
+        "CAZ371",
+        "CAZ372",
+        "CAZ373",
+        "CAZ374",
+        "CAZ376",
+        "CAZ377"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ088",
+      "https://api.weather.gov/zones/forecast/CAZ358",
+      "https://api.weather.gov/zones/forecast/CAZ370",
+      "https://api.weather.gov/zones/forecast/CAZ371",
+      "https://api.weather.gov/zones/forecast/CAZ372",
+      "https://api.weather.gov/zones/forecast/CAZ373",
+      "https://api.weather.gov/zones/forecast/CAZ374",
+      "https://api.weather.gov/zones/forecast/CAZ376",
+      "https://api.weather.gov/zones/forecast/CAZ377"
+    ],
+    "references": [],
+    "sent": "2026-10-13T11:21:00-07:00",
+    "effective": "2026-10-13T11:21:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-16T20:00:00-07:00",
+    "ends": "2026-10-16T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Wind Advisory issued October 13 at 11:21AM PDT until October 16 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Northeast winds 20 to 30 mph with gusts of 35 to 55 mph\nexpected.\n\n* WHERE...Calabasas and Agoura Hills, Central Ventura County Valleys,\nEastern San Fernando Valley, Eastern Santa Monica Mountains\nRecreational Area, Northern Ventura County Mountains, Santa Clarita\nValley, Southeastern Ventura County Valleys, Southern Ventura\nCounty Mountains, and Western San Fernando Valley.\n\n* WHEN...From 6 AM Thursday to 8 PM PDT Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KLOX 131821"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT FROM 6 AM THURSDAY TO 8 PM PDT FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.WI.Y.0068.261015T1300Z-261017T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T20:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T00:29:55+00:00"
+}
