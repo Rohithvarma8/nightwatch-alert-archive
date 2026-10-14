@@ -1,0 +1,79 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acd9ae840dba78c67969047b1b7bd36f59cef13f.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.acd9ae840dba78c67969047b1b7bd36f59cef13f.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.acd9ae840dba78c67969047b1b7bd36f59cef13f.002.1",
+    "areaDesc": "Western Antelope Valley Foothills; Eastern Antelope Valley Foothills",
+    "geocode": {
+      "SAME": [
+        "006037"
+      ],
+      "UGC": [
+        "CAZ381",
+        "CAZ382"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ381",
+      "https://api.weather.gov/zones/fire/CAZ382"
+    ],
+    "references": [],
+    "sent": "2026-10-14T13:15:00-07:00",
+    "effective": "2026-10-14T13:15:00-07:00",
+    "onset": "2026-10-15T06:00:00-07:00",
+    "expires": "2026-10-15T16:15:00-07:00",
+    "ends": "2026-10-17T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Red Flag Warning issued October 14 at 1:15PM PDT until October 17 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "...HIGH RISK FOR EXTREME FIRE BEHAVIOR WITH ANY NEW FIRE STARTS\nTHURSDAY THROUGH SATURDAY DUE TO MODERATE TO LOCALLY STRONG SANTA\nANA WINDS AND LOW RELATIVE HUMIDITY...\n\n.Moderate to locally strong Santa Ana winds will quickly develop\non Thursday, peak Thursday afternoon through Friday afternoon,\nthen slowly weaken through the weekend. Meanwhile, dry air will\nsettle over the region and dry out any effects of the recent\nrains. Red Flag Warnings are in effect for most of Los Angeles\nand Ventura Counties Thursday through Saturday, and for interior\nSanta Barbara and San Luis Obispo Counties for Friday.\n\nThe National Weather Service in Los Angeles/Oxnard has issued a\nRed Flag Warning for wind and low relative humidity, which is in\neffect from 6 AM Thursday to 8 PM PDT Saturday.\n\n* AFFECTED AREA...Antelope Valley Foothills.\n\n* TIMING...From 6 AM Thursday to 8 PM PDT Saturday.\n\n* WINDS...Northeast to east 20 to 30 mph with gusts of 40 to 50\nmph, strongest Thursday afternoon through Friday afternoon.\n\n* RELATIVE HUMIDITY...Minimums of 10 to 20 percent common.\n\n* IMPACTS...If fire ignition occurs, conditions are favorable\nfor extreme fire behavior which would threaten life and\nproperty.",
+    "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. Use extreme caution\nwith anything that can spark a wildfire. Residents near wildland\ninterfaces should be prepared to evacuate if a wildfire breaks\nout. See readyforwildfire.org and wildfirerisk.org for\ninformation.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 142015"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING IN EFFECT FROM 6 AM THURSDAY TO 8 PM PDT SATURDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR THE ANTELOPE VALLEY FOOTHILLS"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXB.KLOX.FW.W.0005.261015T1300Z-261018T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-17T20:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T22:29:11+00:00"
+}

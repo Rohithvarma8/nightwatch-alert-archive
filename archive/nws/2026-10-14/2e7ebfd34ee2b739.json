@@ -1,0 +1,86 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13dedd355f89bbf4b42de0829fc6615fefe55f5c.001.2",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.13dedd355f89bbf4b42de0829fc6615fefe55f5c.001.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.13dedd355f89bbf4b42de0829fc6615fefe55f5c.001.2",
+    "areaDesc": "Northern Lake Including Gravelly Valley; Eastern Lake Including Clearlake and Middletown",
+    "geocode": {
+      "SAME": [
+        "006033"
+      ],
+      "UGC": [
+        "CAZ418",
+        "CAZ419"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ418",
+      "https://api.weather.gov/zones/fire/CAZ419"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ab86421b82cec133ff3458c5c32165f7eee46a39.001.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.ab86421b82cec133ff3458c5c32165f7eee46a39.001.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-14T11:41:00-07:00"
+      }
+    ],
+    "sent": "2026-10-14T12:37:00-07:00",
+    "effective": "2026-10-14T12:37:00-07:00",
+    "onset": "2026-10-16T05:00:00-07:00",
+    "expires": "2026-10-14T20:45:00-07:00",
+    "ends": "2026-10-16T13:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Fire Weather Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Eureka CA",
+    "headline": "Fire Weather Watch issued October 14 at 12:37PM PDT until October 16 at 1:00PM PDT by NWS Eureka CA",
+    "description": "* AFFECTED AREA...Fire weather zones 418 including Lake Pillsbury,\n419 including the City of Clearlake, Middletown, Lower Lake,\nIndian Valley Reservoir, and other areas in eastern and\nsouthern Lake County.\n\n\n* WIND...Sustained winds of 20-25mph with gusts of 30-40mph\npossible.\n\n* HUMIDITY...Low overnight recoveries of 30-35% will drop to 15-20%\nthrough the morning.\n\n* IMPACTS...any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+    "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWEKA"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KEKA 141937"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING REMAINS IN EFFECT FROM 4 AM TO 2 PM PDT THURSDAY... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM LATE THURSDAY NIGHT THROUGH FRIDAY AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KEKA.FW.A.0003.261016T1200Z-261016T2000Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T13:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-14T22:29:11+00:00"
+}
