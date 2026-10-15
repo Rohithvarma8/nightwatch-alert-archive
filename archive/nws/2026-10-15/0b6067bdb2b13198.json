@@ -1,0 +1,77 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37f23c586c8cc569c3b835f8956aabe084963644.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.37f23c586c8cc569c3b835f8956aabe084963644.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.37f23c586c8cc569c3b835f8956aabe084963644.002.1",
+    "areaDesc": "Chiriaco Summit",
+    "geocode": {
+      "SAME": [
+        "006065"
+      ],
+      "UGC": [
+        "CAZ568"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ568"
+    ],
+    "references": [],
+    "sent": "2026-10-15T10:23:00-07:00",
+    "effective": "2026-10-15T10:23:00-07:00",
+    "onset": "2026-10-15T20:00:00-07:00",
+    "expires": "2026-10-16T03:00:00-07:00",
+    "ends": "2026-10-16T14:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Phoenix AZ",
+    "headline": "Wind Advisory issued October 15 at 10:23AM MST until October 16 at 2:00PM MST by NWS Phoenix AZ",
+    "description": "* WHAT...North winds 20 to 25 mph with gusts up to 40 to 45 mph\nexpected.\n\n* WHERE...Chiriaco Summit.\n\n* WHEN...From 8 PM this evening to 2 PM PDT Friday.\n\n* IMPACTS...Difficult driving conditions, especially for larger\nvehicles traveling along roads with crosswinds. Light, unsecured\nobjects may become airborne. Localized channels of blowing dust may\nbriefly lower visibility under one mile.",
+    "instruction": "A Wind Advisory means that sustained wind speeds of between 30 and 40\nmph are expected, or wind gusts of between 40 and 58 mph. Winds this\nstrong can make driving difficult, especially for high profile\nvehicles.\n\nIn addition, strong winds over desert areas could result in briefly\nlowered visibilities to well under a mile at times in blowing dust or\nblowing sand. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWPSR"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KPSR 151723"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT FROM 8 PM THIS EVENING TO 2 PM PDT FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXA.KPSR.WI.Y.0023.261016T0300Z-261016T2100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T14:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T18:49:31+00:00"
+}

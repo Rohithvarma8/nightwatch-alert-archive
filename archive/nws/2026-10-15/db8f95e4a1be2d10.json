@@ -1,0 +1,98 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.001.1",
+    "areaDesc": "Northwest Plateau; Hualapai Mountains; Northwest Deserts; Death Valley National Park; Owens Valley South; Western Clark and Southern Nye County; Sheep Range; Spring Mountains-Red Rock Canyon",
+    "geocode": {
+      "SAME": [
+        "004015",
+        "006027",
+        "032003",
+        "032023",
+        "032017"
+      ],
+      "UGC": [
+        "AZZ001",
+        "AZZ575",
+        "AZZ576",
+        "CAZ522",
+        "CAZ581",
+        "NVZ017",
+        "NVZ018",
+        "NVZ019"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/AZZ001",
+      "https://api.weather.gov/zones/forecast/AZZ575",
+      "https://api.weather.gov/zones/forecast/AZZ576",
+      "https://api.weather.gov/zones/forecast/CAZ522",
+      "https://api.weather.gov/zones/forecast/CAZ581",
+      "https://api.weather.gov/zones/forecast/NVZ017",
+      "https://api.weather.gov/zones/forecast/NVZ018",
+      "https://api.weather.gov/zones/forecast/NVZ019"
+    ],
+    "references": [],
+    "sent": "2026-10-15T08:12:00-07:00",
+    "effective": "2026-10-15T08:12:00-07:00",
+    "onset": "2026-10-15T08:12:00-07:00",
+    "expires": "2026-10-16T11:00:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Wind Advisory issued October 15 at 8:12AM PDT until October 16 at 11:00AM PDT by NWS Las Vegas NV",
+    "description": "* WHAT...Northeast winds 15 to 25 mph with gusts up to 50 mph\nexpected.\n\n* WHERE...Southern Owens Valley, Northwest Plateau, Hualapai\nMountains, Northwest Deserts, Death Valley National Park, Western\nClark and Southern Nye County, Sheep Range, and Spring\nMountains-Red Rock Canyon.\n\n* WHEN...Until 11 AM PDT /11 AM MST/ Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWVEF"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KVEF 151512"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY REMAINS IN EFFECT UNTIL 11 AM PDT /11 AM MST/ FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KVEF.WI.Y.0020.000000T0000Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.001.1,2026-10-15T02:55:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6d852aa5545a03c2d19f438d5fc8f9727437a744.001.1,2026-10-14T13:16:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T18:49:31+00:00"
+}
