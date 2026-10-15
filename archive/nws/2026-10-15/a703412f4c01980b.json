@@ -1,0 +1,78 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0301b0881bc6b80afcd7d361d8cef2a02642df74.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0301b0881bc6b80afcd7d361d8cef2a02642df74.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.0301b0881bc6b80afcd7d361d8cef2a02642df74.001.1",
+    "areaDesc": "North Bay Interior Mountains",
+    "geocode": {
+      "SAME": [
+        "006055",
+        "006097"
+      ],
+      "UGC": [
+        "CAZ504"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ504"
+    ],
+    "references": [],
+    "sent": "2026-10-15T00:18:00-07:00",
+    "effective": "2026-10-15T00:18:00-07:00",
+    "onset": "2026-10-15T22:00:00-07:00",
+    "expires": "2026-10-15T14:00:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Fire Weather Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Francisco CA",
+    "headline": "Fire Weather Watch issued October 15 at 12:18AM PDT until October 16 at 11:00AM PDT by NWS San Francisco CA",
+    "description": "...FIRE WEATHER WATCH IN EFFECT FROM THIS EVENING THROUGH FRIDAY\nMORNING DUE TO WIND AND LOW RELATIVE HUMIDITY FOR NORTH BAY INTERIOR\nMOUNTAINS...\n\n.Moderate offshore winds are expected to develop Thursday night into\nFriday morning over the North Bay Interior Mountains. Conditions will\nbe very dry with very poor overnight humidity recoveries only\nreaching 14 to 24 percent. Rapid fire spread is possible given the\ncombination of gusty northerly winds and very dry overnight\nconditions.\n\nThe National Weather Service in San Francisco CA has issued a Fire\nWeather Watch.\n\n* AFFECTED AREA...North Bay Interior Mountains.\n\n* TIMING...From this evening through Friday morning.\n\n* WINDS 20 FOOT...North winds 5 to 15 mph with gusts up to 30 mph.\n\n* RELATIVE HUMIDITY...Relative Humidity between 14 to 24 percent.\n\n* IMPACTS...Any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+    "instruction": "A Fire Weather Watch means that critical fire weather conditions are\nforecast during the valid watch time. These conditions could promote\nthe rapid spread of wildfires which could become life-threatening.\nCheck weather.gov/mtr for forecast updates and a possible upgrade of\nthis watch to a Red Flag Warning. Also consider signing up for your\ncity, county, or state emergency alert system.\n\nFollow all fire restrictions. One less spark, one less wildfire.\n\nNever leave burning debris or camp fires unattended; extinguish them\ncompletely. Avoid using equipment or machinery that could create a\nspark. Secure tow chains to avoid dragging and subsequent sparks.\nNever toss cigarette butts out of your vehicle's window. Remember,\none less spark, one less flame.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWMTR"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KMTR 150718"
+      ],
+      "NWSheadline": [
+        "FIRE WEATHER WATCH IN EFFECT FROM THIS EVENING THROUGH FRIDAY MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KMTR.FW.A.0001.261016T0500Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T10:03:10+00:00"
+}

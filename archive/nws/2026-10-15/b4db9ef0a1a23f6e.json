@@ -1,0 +1,107 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.002.1",
+    "areaDesc": "Lake Havasu and Fort Mohave; Lake Mohave - AZ side; Eastern Mojave Desert, Including the Mojave National Preserve; Cadiz Basin; San Bernardino County-Upper Colorado River Valley; Southern Clark County; Lake Mohave - NV side",
+    "geocode": {
+      "SAME": [
+        "004015",
+        "006071",
+        "032003"
+      ],
+      "UGC": [
+        "AZZ002",
+        "AZZ571",
+        "CAZ524",
+        "CAZ526",
+        "CAZ527",
+        "NVZ022",
+        "NVZ026"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/AZZ002",
+      "https://api.weather.gov/zones/forecast/AZZ571",
+      "https://api.weather.gov/zones/forecast/CAZ524",
+      "https://api.weather.gov/zones/forecast/CAZ526",
+      "https://api.weather.gov/zones/forecast/CAZ527",
+      "https://api.weather.gov/zones/forecast/NVZ022",
+      "https://api.weather.gov/zones/forecast/NVZ026"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a4e8acffbdc2e262eb15d10721b076373b1190e2.002.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.a4e8acffbdc2e262eb15d10721b076373b1190e2.002.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-14T07:49:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6d852aa5545a03c2d19f438d5fc8f9727437a744.002.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.6d852aa5545a03c2d19f438d5fc8f9727437a744.002.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-14T13:16:00-07:00"
+      }
+    ],
+    "sent": "2026-10-15T02:55:00-07:00",
+    "effective": "2026-10-15T02:55:00-07:00",
+    "onset": "2026-10-15T08:00:00-07:00",
+    "expires": "2026-10-15T08:00:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Wind Advisory issued October 15 at 2:55AM PDT until October 16 at 11:00AM PDT by NWS Las Vegas NV",
+    "description": "* WHAT...North-to-northeast winds 20 to 30 mph with gusts up to 50\nmph expected.\n\n* WHERE...Lake Mohave, Lower Colorado River Valley / Lake Havasu,\nEastern Mojave Desert, Cadiz Basin, and Southern Clark County.\n\n* WHEN...From 8 AM PDT /8 AM MST/ this morning to 11 AM PDT /11 AM\nMST/ Friday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.\n\nStrong winds and rough waves on area lakes will create hazardous\nconditions for small craft.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWVEF"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KVEF 150955"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY REMAINS IN EFFECT FROM 8 AM PDT /8 AM MST/ THIS MORNING TO 11 AM PDT /11 AM MST/ FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KVEF.WI.Y.0020.261015T1500Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e53e06516daf923465c06313f696f49f9a31ceb0.003.1,2026-10-13T23:30:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T10:03:10+00:00"
+}
