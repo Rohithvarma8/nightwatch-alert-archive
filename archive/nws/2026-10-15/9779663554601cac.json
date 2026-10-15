@@ -1,0 +1,79 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25f5385cd20fe2206e48c8b684f2305219788c77.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.25f5385cd20fe2206e48c8b684f2305219788c77.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.25f5385cd20fe2206e48c8b684f2305219788c77.001.1",
+    "areaDesc": "Lake Casitas; Ojai Valley",
+    "geocode": {
+      "SAME": [
+        "006111"
+      ],
+      "UGC": [
+        "CAZ356",
+        "CAZ357"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ356",
+      "https://api.weather.gov/zones/fire/CAZ357"
+    ],
+    "references": [],
+    "sent": "2026-10-15T13:16:00-07:00",
+    "effective": "2026-10-15T13:16:00-07:00",
+    "onset": "2026-10-15T13:16:00-07:00",
+    "expires": "2026-10-16T19:30:00-07:00",
+    "ends": "2026-10-17T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Red Flag Warning issued October 15 at 1:16PM PDT until October 17 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "...HIGH RISK FOR RAPID FIRE GROWTH AND EXTREME FIRE BEHAVIOR WITH\nANY NEW FIRE STARTS THROUGH SATURDAY, DUE TO MODERATE TO LOCALLY\nSTRONG SANTA ANA WINDS AND LOW RELATIVE HUMIDITY...\n\n.Updates include adding the following areas to the previous Red\nFlag Warnings - Ojai, Casitas, and the Santa Lucia Mountains.\nModerate to strong Santa Ana winds will peak around Friday then\nslowly weaken through the weekend. Meanwhile, dry air will persist\nand dry out any effects of the recent rains. Red Flag Warnings\nare in effect for most of Los Angeles and Ventura Counties\nThursday through Saturday, and for interior Santa Barbara and San\nLuis Obispo Counties for Friday.\n\nThe National Weather Service in Los Angeles/Oxnard has issued a\nRed Flag Warning for wind and low relative humidity, which is in\neffect until 8 PM PDT Saturday.\n\n* AFFECTED AREA...Lake Casitas and Ojai Valley.\n\n* TIMING...Until 8 PM PDT Saturday.\n\n* WINDS...East 15 to 25 mph with gusts of 40 mph, strongest Friday.\n\n* RELATIVE HUMIDITY...Minimums of 8 to 15 percent common.\n\n* IMPACTS...If fire ignition occurs, conditions are favorable\nfor extreme fire behavior which would threaten life and\nproperty.",
+    "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. Use extreme caution\nwith anything that can spark a wildfire. Residents near wildland\ninterfaces should be prepared to evacuate if a wildfire breaks\nout. See readyforwildfire.org and wildfirerisk.org for\ninformation.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 152016"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING IN EFFECT UNTIL 8 PM PDT SATURDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR THE CASITAS AND OJAI AREAS"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXA.KLOX.FW.W.0005.000000T0000Z-261018T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-17T20:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T21:50:49+00:00"
+}

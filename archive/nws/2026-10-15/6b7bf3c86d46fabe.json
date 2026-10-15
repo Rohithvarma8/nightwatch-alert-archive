@@ -1,0 +1,94 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a58173fa51145a4e1f3c641761b2d2b3af62bf51.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a58173fa51145a4e1f3c641761b2d2b3af62bf51.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.a58173fa51145a4e1f3c641761b2d2b3af62bf51.001.1",
+    "areaDesc": "Northern Lake Including Gravelly Valley; Eastern Lake Including Clearlake and Middletown; Southern Lake Including Cobb and Konocti",
+    "geocode": {
+      "SAME": [
+        "006033"
+      ],
+      "UGC": [
+        "CAZ418",
+        "CAZ419",
+        "CAZ420"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ418",
+      "https://api.weather.gov/zones/fire/CAZ419",
+      "https://api.weather.gov/zones/fire/CAZ420"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8401105b7bb8354974b73f4fea0f7efabf673d44.001.3",
+        "identifier": "urn:oid:2.49.0.1.840.0.8401105b7bb8354974b73f4fea0f7efabf673d44.001.3",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T13:50:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8401105b7bb8354974b73f4fea0f7efabf673d44.002.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.8401105b7bb8354974b73f4fea0f7efabf673d44.002.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T13:50:00-07:00"
+      }
+    ],
+    "sent": "2026-10-15T14:02:00-07:00",
+    "effective": "2026-10-15T14:02:00-07:00",
+    "onset": "2026-10-15T22:00:00-07:00",
+    "expires": "2026-10-15T22:15:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Eureka CA",
+    "headline": "Red Flag Warning issued October 15 at 2:02PM PDT until October 16 at 11:00AM PDT by NWS Eureka CA",
+    "description": "* AFFECTED AREA...Fire weather zones 418 including Lake Pillsbury,\n419 including the City of Clearlake, Middletown, Lower Lake, and\nIndian Valley Reservoir, and 420 including Cobb and Mount\nKonocti.\n\n* WIND...Sustained winds of 15 to 25mph with gusts to 35 mph\npossible in exposed areas.\n\n* HUMIDITY...Low overnight recoveries of 30-35% will drop to\n10- 20% through the morning. Very poor RH recovery into\nFriday.\n\n* IMPACTS...any fires that develop will likely spread rapidly.",
+    "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWEKA"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KEKA 152102"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING REMAINS IN EFFECT FROM 10 PM THIS EVENING TO 11 AM PDT FRIDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KEKA.FW.W.0007.261016T0500Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T21:50:49+00:00"
+}

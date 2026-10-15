@@ -1,0 +1,90 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c6e911c7732926a2f38301c722c5482a4d878ed.003.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1c6e911c7732926a2f38301c722c5482a4d878ed.003.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.1c6e911c7732926a2f38301c722c5482a4d878ed.003.1",
+    "areaDesc": "Riverside County Mountains",
+    "geocode": {
+      "SAME": [
+        "006065"
+      ],
+      "UGC": [
+        "CAZ056"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ056"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9412c17c12857fee4a7d8817640126c6a98e4b10.003.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.9412c17c12857fee4a7d8817640126c6a98e4b10.003.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T05:33:00-07:00"
+      }
+    ],
+    "sent": "2026-10-15T13:39:00-07:00",
+    "effective": "2026-10-15T13:39:00-07:00",
+    "onset": "2026-10-15T13:39:00-07:00",
+    "expires": "2026-10-16T04:00:00-07:00",
+    "ends": "2026-10-18T00:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "High Wind Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "High Wind Warning issued October 15 at 1:39PM PDT until October 18 at 12:00AM PDT by NWS San Diego CA",
+    "description": "* WHAT...Northeast to east winds 25 to 35 mph with gusts 50 to 60 mph\nexpected. Strongest winds on mountain foothills, with gusts to 65\nmph expected.\n\n* WHERE...Riverside County Mountains.\n\n* WHEN...Until midnight PDT Saturday Night.\n\n* IMPACTS...Damaging winds will blow down trees and power lines.\nPower outages are possible. Travel will be difficult, especially\nfor high profile vehicles.\n\n* ADDITIONAL DETAILS...Strongest winds will be on Friday. Winds\nbecome more easterly Saturday.",
+    "instruction": "People are urged to secure loose objects that could be blown around\nor damaged by the wind.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 152039"
+      ],
+      "NWSheadline": [
+        "HIGH WIND WARNING REMAINS IN EFFECT UNTIL MIDNIGHT PDT SATURDAY NIGHT"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.HW.W.0003.000000T0000Z-261018T0700Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-18T00:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.334bf9cc176b9ad9f3fddb5327fe4eff3afc9edd.003.1,2026-10-14T18:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7d9a4c908a3292a686b4eea8f4447ed2b98d1881.004.2,2026-10-14T11:16:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "HWW"
+      ],
+      "NationalWeatherService": [
+        "HWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-15T21:50:49+00:00"
+}
