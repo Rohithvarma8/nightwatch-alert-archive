@@ -1,0 +1,89 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.440daf4492ee2b6538c37cacae595757afe02ab0.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.440daf4492ee2b6538c37cacae595757afe02ab0.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.440daf4492ee2b6538c37cacae595757afe02ab0.002.1",
+    "areaDesc": "Tehachapi Area; Fort Tejon",
+    "geocode": {
+      "SAME": [
+        "006029"
+      ],
+      "UGC": [
+        "CAZ596",
+        "CAZ597"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ596",
+      "https://api.weather.gov/zones/fire/CAZ597"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dfdde02aa867d5f90ca83d45a1ef25ed84af0ac4.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.dfdde02aa867d5f90ca83d45a1ef25ed84af0ac4.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-16T02:31:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T10:35:00-07:00",
+    "effective": "2026-10-16T10:35:00-07:00",
+    "onset": "2026-10-16T10:35:00-07:00",
+    "expires": "2026-10-16T18:45:00-07:00",
+    "ends": "2026-10-16T22:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Red Flag Warning issued October 16 at 10:35AM PDT until October 16 at 10:00PM PDT by NWS Hanford CA",
+    "description": "...RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM PDT THIS EVENING\nDUE TO WIND AND LOW RELATIVE HUMIDITY FOR CENTRAL SIERRA, NORTH KINGS\nRIVER, SEQUOIA KINGS, LAKE ISABELLA, TEHACHAPI AREA, AND FORT\nTEJON...\n\n* AFFECTED AREA...Fire Weather Zones 596 and 597.\n\n* TIMING...Until 10 PM PDT this evening.\n\n* WINDS...East winds 20 to 30 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...Relative Humidity between 19 to 32 percent.\n\n* IMPACTS...ANY FIRES THAT DEVELOP WILL LIKELY SPREAD RAPIDLY.\nOUTDOOR BURNING IS NOT RECOMMENDED.",
+    "instruction": "Please advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.\n\nA Red Flag Warning is issued when we identify weather conditions that\npromote rapid spread of fire which may become life-threatening. This\ndoes not mean there is a fire. These conditions are either occurring\nnow or will begin soon. It is important to have multiple ways to\nreceive information from authorities.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 161735"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KHNX.FW.W.0004.000000T0000Z-261017T0500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T22:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ae476d6294c721ab77c7571ad08cde56ec8355c4.001.1,2026-10-15T18:05:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c2c194890e02dddccda00a43c0dfbaa1879b0e71.001.1,2026-10-15T10:20:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ed3115ccbe1755028216ef626301dbbfa70aa00e.001.1,2026-10-15T02:32:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c8247a7f5471b42c753799da03b067105877dd80.001.1,2026-10-14T18:20:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.41940399ca2b75db0703300962356aa942091eb5.001.2,2026-10-14T10:30:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-16T17:54:45+00:00"
+}

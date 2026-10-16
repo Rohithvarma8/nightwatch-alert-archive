@@ -1,0 +1,126 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da0a2419b5723bfd78183c37bf95e8718e541528.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da0a2419b5723bfd78183c37bf95e8718e541528.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.da0a2419b5723bfd78183c37bf95e8718e541528.001.1",
+    "areaDesc": "Northwest Plateau; Lake Havasu and Fort Mohave; Lake Mohave - AZ side; Hualapai Mountains; Northwest Deserts; Death Valley National Park; Eastern Mojave Desert, Including the Mojave National Preserve; Cadiz Basin; San Bernardino County-Upper Colorado River Valley; Owens Valley South; Western Clark and Southern Nye County; Sheep Range; Spring Mountains-Red Rock Canyon; Southern Clark County; Lake Mohave - NV side",
+    "geocode": {
+      "SAME": [
+        "004015",
+        "006027",
+        "006071",
+        "032003",
+        "032023",
+        "032017"
+      ],
+      "UGC": [
+        "AZZ001",
+        "AZZ002",
+        "AZZ571",
+        "AZZ575",
+        "AZZ576",
+        "CAZ522",
+        "CAZ524",
+        "CAZ526",
+        "CAZ527",
+        "CAZ581",
+        "NVZ017",
+        "NVZ018",
+        "NVZ019",
+        "NVZ022",
+        "NVZ026"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/AZZ001",
+      "https://api.weather.gov/zones/forecast/AZZ002",
+      "https://api.weather.gov/zones/forecast/AZZ571",
+      "https://api.weather.gov/zones/forecast/AZZ575",
+      "https://api.weather.gov/zones/forecast/AZZ576",
+      "https://api.weather.gov/zones/forecast/CAZ522",
+      "https://api.weather.gov/zones/forecast/CAZ524",
+      "https://api.weather.gov/zones/forecast/CAZ526",
+      "https://api.weather.gov/zones/forecast/CAZ527",
+      "https://api.weather.gov/zones/forecast/CAZ581",
+      "https://api.weather.gov/zones/forecast/NVZ017",
+      "https://api.weather.gov/zones/forecast/NVZ018",
+      "https://api.weather.gov/zones/forecast/NVZ019",
+      "https://api.weather.gov/zones/forecast/NVZ022",
+      "https://api.weather.gov/zones/forecast/NVZ026"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T08:12:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.002.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.4ea727a1ffbf30381c7cb8b201e9481cc6d69d76.002.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T08:12:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T10:45:00-07:00",
+    "effective": "2026-10-16T10:45:00-07:00",
+    "onset": "2026-10-16T10:45:00-07:00",
+    "expires": "2026-10-16T11:45:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Wind Advisory issued October 16 at 10:45AM PDT until October 16 at 11:00AM PDT by NWS Las Vegas NV",
+    "description": "The hazardously strong winds have decreased across the area and the\nWind Advisory has been allowed to expire.",
+    "instruction": null,
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWVEF"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KVEF 161745"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY WILL EXPIRE AT 11 AM PDT /11 AM MST/ THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXP.KVEF.WI.Y.0020.000000T0000Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.002.1,2026-10-15T02:55:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a7bfe86a2b381e7dbdd29e97ed54a7509ebb929d.001.1,2026-10-15T02:55:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6d852aa5545a03c2d19f438d5fc8f9727437a744.002.1,2026-10-14T13:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6d852aa5545a03c2d19f438d5fc8f9727437a744.001.1,2026-10-14T13:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a4e8acffbdc2e262eb15d10721b076373b1190e2.002.1,2026-10-14T07:49:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e53e06516daf923465c06313f696f49f9a31ceb0.003.1,2026-10-13T23:30:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-16T17:54:45+00:00"
+}

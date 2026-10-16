@@ -1,0 +1,91 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63bdf8a57df2911a349c975714a26b24401c1011.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.63bdf8a57df2911a349c975714a26b24401c1011.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.63bdf8a57df2911a349c975714a26b24401c1011.001.1",
+    "areaDesc": "North Bay Interior Mountains",
+    "geocode": {
+      "SAME": [
+        "006055",
+        "006097"
+      ],
+      "UGC": [
+        "CAZ504"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ504"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5e057d0e5950939440f17d93bf9bbd6a5aa05e8d.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.5e057d0e5950939440f17d93bf9bbd6a5aa05e8d.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-16T00:17:00-07:00"
+      },
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.77f149f3d3193cfb48551d63fa3c7f7389b49c31.001.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.77f149f3d3193cfb48551d63fa3c7f7389b49c31.001.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T11:40:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T10:38:00-07:00",
+    "effective": "2026-10-16T10:38:00-07:00",
+    "onset": "2026-10-16T10:38:00-07:00",
+    "expires": "2026-10-16T11:45:00-07:00",
+    "ends": "2026-10-16T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Francisco CA",
+    "headline": "Red Flag Warning issued October 16 at 10:38AM PDT until October 16 at 11:00AM PDT by NWS San Francisco CA",
+    "description": "The strongest north-northeasterly winds are beginning to diminish\nthis morning and will continue to do so through the afternoon across\nthe North Bay Interior Mountains. Therefore, the Red Flag Warning\nwill be allowed to expire at 11 AM PDT.\n\nHowever, near critical fire weather conditions will persist through\nSaturday due to weak offshore winds and poor humidity values in the\nhigher elevations.",
+    "instruction": null,
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWMTR"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KMTR 161738"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING WILL EXPIRE AT 11 AM PDT THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXP.KMTR.FW.W.0003.000000T0000Z-261016T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T11:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-16T17:54:45+00:00"
+}
