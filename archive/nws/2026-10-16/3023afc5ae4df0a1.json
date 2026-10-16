@@ -1,0 +1,118 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f31159f520854deebb669f0bb7e8b8c747bbc8a.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f31159f520854deebb669f0bb7e8b8c747bbc8a.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.7f31159f520854deebb669f0bb7e8b8c747bbc8a.001.1",
+    "areaDesc": "Sierra Nevada of Tehama-Butte-Plumas Counties Between 1000-3000 ft; Sierra Nevada of Tehama-Butte-Plumas Counties Above 3000 ft; Northern Motherlode Between 1000-3000 ft; Sierra Nevada of Yuba-Sierra-Nevada-Placer Counties Between 3000-5000 ft Including Interstate 80; Sierra Nevada of Sierra-Nevada-Placer Counties Above 5000 ft Including Interstate 80; Central Motherlode Between 1000-3000 ft; Sierra Nevada of El Dorado and Amador Counties Between 3000-5000 ft Including Highway 50; Sierra Nevada of El Dorado-Amador-Northern Alpine Counties Above 5000 ft Including Highway 50; Southern Motherlode Between 1000-3000 ft; Sierra Nevada of Calaveras and Tuolumne Counties Between 3000-5000 ft; Sierra Nevada of Calaveras-Tuolumne-Southern Alpine Counties Above 5000 ft",
+    "geocode": {
+      "SAME": [
+        "006007",
+        "006063",
+        "006103",
+        "006057",
+        "006061",
+        "006091",
+        "006115",
+        "006005",
+        "006017",
+        "006003",
+        "006009",
+        "006109"
+      ],
+      "UGC": [
+        "CAZ129",
+        "CAZ130",
+        "CAZ131",
+        "CAZ132",
+        "CAZ133",
+        "CAZ134",
+        "CAZ135",
+        "CAZ136",
+        "CAZ137",
+        "CAZ138",
+        "CAZ139"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/fire/CAZ129",
+      "https://api.weather.gov/zones/fire/CAZ130",
+      "https://api.weather.gov/zones/fire/CAZ131",
+      "https://api.weather.gov/zones/fire/CAZ132",
+      "https://api.weather.gov/zones/fire/CAZ133",
+      "https://api.weather.gov/zones/fire/CAZ134",
+      "https://api.weather.gov/zones/fire/CAZ135",
+      "https://api.weather.gov/zones/fire/CAZ136",
+      "https://api.weather.gov/zones/fire/CAZ137",
+      "https://api.weather.gov/zones/fire/CAZ138",
+      "https://api.weather.gov/zones/fire/CAZ139"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6ba23acc1834cdf31232a67829e59b6fb3f7e8a8.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.6ba23acc1834cdf31232a67829e59b6fb3f7e8a8.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-15T12:04:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T02:15:00-07:00",
+    "effective": "2026-10-16T02:15:00-07:00",
+    "onset": "2026-10-16T02:15:00-07:00",
+    "expires": "2026-10-16T10:00:00-07:00",
+    "ends": "2026-10-16T10:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Red Flag Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Sacramento CA",
+    "headline": "Red Flag Warning issued October 16 at 2:15AM PDT until October 16 at 10:00AM PDT by NWS Sacramento CA",
+    "description": "...RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 AM PDT THIS MORNING\nDUE TO WIND AND LOW RELATIVE HUMIDITY FOR PORTIONS OF CENTRAL AND\nNORTHERN CALIFORNIA...\n\n* AFFECTED AREA...Portions of central and northern California.\n\n* TIMING...Until 10 AM PDT this morning.\n\n* WINDS...Northeast to east winds 15 to 25 mph with gusts 25 to 45\nmph.\n\n* RELATIVE HUMIDITY...Daytime humidity 10 to 20% with single digits\npossible and very poor overnight recoveries.\n\n* IMPACTS...Any fires that develop will spread rapidly. Outdoor\nburning is not recommended.",
+    "instruction": "Please advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "RFWSTO"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KSTO 160915"
+      ],
+      "NWSheadline": [
+        "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 AM PDT THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KSTO.FW.W.0007.000000T0000Z-261016T1700Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T10:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e4445deec17cad9337cdd1ad0d3bf8780b3d4c82.001.1,2026-10-15T00:24:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f4cb664e09cf499f4549d49c5ca565796896c73b.001.1,2026-10-14T10:14:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FWW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-16T13:59:43+00:00"
+}
