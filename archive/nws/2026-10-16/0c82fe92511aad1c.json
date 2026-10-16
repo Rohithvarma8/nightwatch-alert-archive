@@ -1,0 +1,87 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc9ccd8816fe622ed015ec17fc7661c92aea043.008.2",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dc9ccd8816fe622ed015ec17fc7661c92aea043.008.2",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3dc9ccd8816fe622ed015ec17fc7661c92aea043.008.2",
+    "areaDesc": "Orange County Inland",
+    "geocode": {
+      "SAME": [
+        "006059"
+      ],
+      "UGC": [
+        "CAZ554"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ554"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1b02d92e569e9016a6d47c63b60c7b867a73a5ee.008.2",
+        "identifier": "urn:oid:2.49.0.1.840.0.1b02d92e569e9016a6d47c63b60c7b867a73a5ee.008.2",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-16T05:10:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T12:54:00-07:00",
+    "effective": "2026-10-16T12:54:00-07:00",
+    "onset": "2026-10-16T12:54:00-07:00",
+    "expires": "2026-10-16T22:15:00-07:00",
+    "ends": "2026-10-17T12:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Wind Advisory issued October 16 at 12:54PM PDT until October 17 at 12:00PM PDT by NWS San Diego CA",
+    "description": "* WHAT...For the Heat Advisory, temperatures up to 95. For the Wind\nAdvisory, northeast to east winds 15 mph with gusts 25 to 35 mph.\n\n* WHERE...Orange County Inland Areas.\n\n* WHEN...For the Heat Advisory, until 8 PM PDT Saturday. For the Wind\nAdvisory, until noon PDT Saturday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\nModerate to locally major HeatRisk. Those sensitive to heat may be\nimpacted.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.\n\nDrink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 161954"
+      ],
+      "NWSheadline": [
+        "HEAT ADVISORY REMAINS IN EFFECT UNTIL 8 PM PDT SATURDAY... ...WIND ADVISORY REMAINS IN EFFECT UNTIL NOON PDT SATURDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.WI.Y.0024.000000T0000Z-261017T1900Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-17T12:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1c6e911c7732926a2f38301c722c5482a4d878ed.008.2,2026-10-15T13:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9412c17c12857fee4a7d8817640126c6a98e4b10.008.1,2026-10-15T05:33:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.334bf9cc176b9ad9f3fddb5327fe4eff3afc9edd.008.1,2026-10-14T18:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7d9a4c908a3292a686b4eea8f4447ed2b98d1881.008.1,2026-10-14T11:16:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-16T20:22:50+00:00"
+}
