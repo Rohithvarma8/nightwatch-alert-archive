@@ -1,0 +1,82 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39187f9c0a05df292cf2ff38729db4ea4631dde8.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.39187f9c0a05df292cf2ff38729db4ea4631dde8.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.39187f9c0a05df292cf2ff38729db4ea4631dde8.001.1",
+    "areaDesc": "Ventura County Beaches; Malibu Coast; Los Angeles County Beaches",
+    "geocode": {
+      "SAME": [
+        "006111",
+        "006037"
+      ],
+      "UGC": [
+        "CAZ354",
+        "CAZ362",
+        "CAZ366"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ354",
+      "https://api.weather.gov/zones/forecast/CAZ362",
+      "https://api.weather.gov/zones/forecast/CAZ366"
+    ],
+    "references": [],
+    "sent": "2026-10-17T12:05:00-07:00",
+    "effective": "2026-10-17T12:05:00-07:00",
+    "onset": "2026-10-18T09:00:00-07:00",
+    "expires": "2026-10-17T20:15:00-07:00",
+    "ends": "2026-10-20T09:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Beach Hazards Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Beach Hazards Statement issued October 17 at 12:05PM PDT until October 20 at 9:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Dangerous rip currents and breaking waves due to\nelevated surf expected.\n\n* WHERE...Ventura County Beaches, Malibu Coast and Los Angeles\nCounty Beaches.\n\n* WHEN...From Sunday morning through Tuesday morning.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore.\n\n* ADDITIONAL DETAILS...Minor beach erosion and tidal overflows may\noccur across south-facing beaches especially in the Long Beach\narea.",
+    "instruction": "Remain out of the water due to hazardous swimming conditions, or\nstay near occupied lifeguard towers. Rock jetties can be deadly\nin such conditions, stay off the rocks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "CFWLOX"
+      ],
+      "WMOidentifier": [
+        "WHUS46 KLOX 171905"
+      ],
+      "NWSheadline": [
+        "BEACH HAZARDS STATEMENT IN EFFECT FROM SUNDAY MORNING THROUGH TUESDAY MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.BH.S.0022.261018T1600Z-261020T1600Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-20T09:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "BHS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-17T21:00:36+00:00"
+}
