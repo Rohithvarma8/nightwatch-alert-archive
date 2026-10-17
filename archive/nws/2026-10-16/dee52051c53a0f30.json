@@ -1,0 +1,91 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91233966aed5afd0696c894735a559040520947e.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.91233966aed5afd0696c894735a559040520947e.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.91233966aed5afd0696c894735a559040520947e.001.1",
+    "areaDesc": "Indian Wells Valley; Mojave Desert Slopes; Mojave Desert",
+    "geocode": {
+      "SAME": [
+        "006029"
+      ],
+      "UGC": [
+        "CAZ337",
+        "CAZ338",
+        "CAZ339"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ337",
+      "https://api.weather.gov/zones/forecast/CAZ338",
+      "https://api.weather.gov/zones/forecast/CAZ339"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d1656570568f837168b330e52a37b2d44853ae74.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.d1656570568f837168b330e52a37b2d44853ae74.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-16T09:31:00-07:00"
+      }
+    ],
+    "sent": "2026-10-16T17:28:00-07:00",
+    "effective": "2026-10-16T17:28:00-07:00",
+    "onset": "2026-10-16T17:28:00-07:00",
+    "expires": "2026-10-16T22:00:00-07:00",
+    "ends": "2026-10-16T22:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Wind Advisory issued October 16 at 5:28PM PDT until October 16 at 10:00PM PDT by NWS Hanford CA",
+    "description": "* WHAT...Northeast winds 25 to 35 mph with gusts up to 55 mph.\n\n* WHERE...Indian Wells Valley, Mojave Desert, and Mojave Desert\nSlopes.\n\n* WHEN...Until 10 PM PDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.\n\n* ADDITIONAL DETAILS...Highways impacted include US Highway 395, and\nState Routes 14, 58, and 178.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KHNX 170028"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY REMAINS IN EFFECT UNTIL 10 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KHNX.WI.Y.0032.000000T0000Z-261017T0500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-16T22:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0a2f10ab0521ef73c40f1820e0d588e7b32a0915.001.1,2026-10-16T01:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d53e5e3a83071b2213b859b4835957211e0d4f1c.001.1,2026-10-15T18:03:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7fdf6975cf0a586d73ef4b0a131a73689927b8c0.001.1,2026-10-15T10:25:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b77f7f3c941476111cc4ace6337f356ce13fa202.001.1,2026-10-15T02:31:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ce12200a4c8fe9dec513f97f3022541fb1a8c19a.001.1,2026-10-14T18:21:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9250129718112daa0e61290c4e2186dfbee5c456.001.1,2026-10-14T10:25:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-17T01:00:14+00:00"
+}
