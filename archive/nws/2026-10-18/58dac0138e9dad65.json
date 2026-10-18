@@ -1,0 +1,90 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dcaaecf3e0f466bbbf940bb5d6584a04902202d5.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dcaaecf3e0f466bbbf940bb5d6584a04902202d5.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.dcaaecf3e0f466bbbf940bb5d6584a04902202d5.001.1",
+    "areaDesc": "San Diego County Coastal Areas; Orange County Coastal",
+    "geocode": {
+      "SAME": [
+        "006073",
+        "006059"
+      ],
+      "UGC": [
+        "CAZ043",
+        "CAZ552"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ043",
+      "https://api.weather.gov/zones/forecast/CAZ552"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f61bb7b44720ec71e157c4b92e5ad3665ce316b2.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.f61bb7b44720ec71e157c4b92e5ad3665ce316b2.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-18T08:33:00-07:00"
+      }
+    ],
+    "sent": "2026-10-18T12:43:00-07:00",
+    "effective": "2026-10-18T12:43:00-07:00",
+    "onset": "2026-10-18T12:43:00-07:00",
+    "expires": "2026-10-19T03:00:00-07:00",
+    "ends": "2026-10-20T09:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Beach Hazards Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Beach Hazards Statement issued October 18 at 12:43PM PDT until October 20 at 9:00AM PDT by NWS San Diego CA",
+    "description": "* WHAT...Dangerous rip currents and breaking waves. Surf of 3 to 6\nfeet with local sets to 7 feet, primarily for south-facing\nbeaches.\n\n* WHERE...San Diego County Coastal Areas and Orange County\nCoastal Areas. Highest waves on south and southwest facing\nbeaches.\n\n* WHEN...Now through Tuesday morning.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore.\n\n* ADDITIONAL DETAILS...Minor beach erosion may occur across south-facing\nbeaches.",
+    "instruction": "Remain out of the water to avoid hazardous swimming conditions.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "CFWSGX"
+      ],
+      "WMOidentifier": [
+        "WHUS46 KSGX 181943"
+      ],
+      "NWSheadline": [
+        "BEACH HAZARDS STATEMENT REMAINS IN EFFECT THROUGH TUESDAY MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KSGX.BH.S.0015.000000T0000Z-261020T1600Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-20T09:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3bf19ea6e5d9d4da0341c33779e556b0d4637b79.001.1,2026-10-18T00:59:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "BHS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-18T21:29:25+00:00"
+}
