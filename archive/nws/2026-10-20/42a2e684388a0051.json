@@ -1,0 +1,85 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d87785117a5f603f13f438f0f71acf3ff0107df.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7d87785117a5f603f13f438f0f71acf3ff0107df.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.7d87785117a5f603f13f438f0f71acf3ff0107df.002.1",
+    "areaDesc": "Malibu Coast; Western Santa Monica Mountains Recreational Area; Eastern Santa Monica Mountains Recreational Area",
+    "geocode": {
+      "SAME": [
+        "006037",
+        "006111"
+      ],
+      "UGC": [
+        "CAZ362",
+        "CAZ369",
+        "CAZ370"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ362",
+      "https://api.weather.gov/zones/forecast/CAZ369",
+      "https://api.weather.gov/zones/forecast/CAZ370"
+    ],
+    "references": [],
+    "sent": "2026-10-20T12:11:00-07:00",
+    "effective": "2026-10-20T12:11:00-07:00",
+    "onset": "2026-10-21T16:00:00-07:00",
+    "expires": "2026-10-21T08:00:00-07:00",
+    "ends": "2026-10-22T16:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Watch issued October 20 at 12:11PM PDT until October 22 at 4:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...A portion of southwest California, including the following\nareas, Eastern Santa Monica Mountains Recreational Area, Malibu\nCoast and Western Santa Monica Mountains Recreational Area.\n\n* WHEN...From Wednesday afternoon through Thursday afternoon.\n\n* IMPACTS...Flooding may occur in poor drainage and urban areas.\nExtensive street flooding and flooding of creeks and rivers are\npossible.\n\n* ADDITIONAL DETAILS...\n- Rain rates between 0.50 and 1.00 inch per hour are possible,\nheaviest Wednesday night.\n- http://www.weather.gov/safety/flood",
+    "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FFALOX"
+      ],
+      "WMOidentifier": [
+        "WGUS66 KLOX 201911"
+      ],
+      "NWSheadline": [
+        "FLOOD WATCH IN EFFECT FROM WEDNESDAY AFTERNOON THROUGH THURSDAY AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.A.0003.261021T2300Z-261022T2300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T16:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "FFA"
+      ],
+      "NationalWeatherService": [
+        "FAA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-20T20:40:00+00:00"
+}
