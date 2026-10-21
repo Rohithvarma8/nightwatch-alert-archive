@@ -1,0 +1,112 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc21d7a534ebaaae4f0b731508764d39289b9467.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.17,
+          36.51
+        ],
+        [
+          -118.98,
+          36.22
+        ],
+        [
+          -119.14,
+          36.13
+        ],
+        [
+          -119.41,
+          36.37
+        ],
+        [
+          -119.17,
+          36.51
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc21d7a534ebaaae4f0b731508764d39289b9467.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.bc21d7a534ebaaae4f0b731508764d39289b9467.001.1",
+    "areaDesc": "Visalia - Porterville - Reedley; Fresno-Tulare Foothills",
+    "geocode": {
+      "SAME": [
+        "006019",
+        "006107"
+      ],
+      "UGC": [
+        "CAZ312",
+        "CAZ319"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ312",
+      "https://api.weather.gov/zones/forecast/CAZ319"
+    ],
+    "references": [],
+    "sent": "2026-10-21T10:25:00-07:00",
+    "effective": "2026-10-21T10:25:00-07:00",
+    "onset": "2026-10-21T10:25:00-07:00",
+    "expires": "2026-10-21T11:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Special Weather Statement issued October 21 at 10:25AM PDT by NWS Hanford CA",
+    "description": "At 1025 AM PDT, Doppler radar was tracking a strong thunderstorm over\nLindsay, or 12 miles north of Porterville, moving northwest at 20\nmph.\n\nHAZARD...Wind gusts up to 30 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nVisalia, Lindsay, Farmersville, Exeter, Woodlake and Ivanhoe.",
+    "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 211725"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT WEST CENTRAL TULARE COUNTY UNTIL 11 AM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-21T17:25:00-00:00...storm...143DEG...18KT...36.24,-119.1"
+      ],
+      "maxWindGust": [
+        "30 MPH"
+      ],
+      "maxHailSize": [
+        "0.25"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-21T17:29:35+00:00"
+}

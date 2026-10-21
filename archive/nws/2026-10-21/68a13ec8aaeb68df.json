@@ -1,0 +1,170 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.468b1bed437a6456730da0a0b0e062865c93313a.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.64,
+          34.58
+        ],
+        [
+          -120.39,
+          34.58
+        ],
+        [
+          -120.35,
+          34.52
+        ],
+        [
+          -120.22,
+          34.5
+        ],
+        [
+          -120.18,
+          34.61
+        ],
+        [
+          -120.15,
+          34.68
+        ],
+        [
+          -120.28,
+          34.76
+        ],
+        [
+          -120.33,
+          35.01
+        ],
+        [
+          -120.21,
+          35.02
+        ],
+        [
+          -120.1,
+          35.11
+        ],
+        [
+          -119.73,
+          34.87
+        ],
+        [
+          -119.54,
+          34.87
+        ],
+        [
+          -119.55,
+          34.82
+        ],
+        [
+          -119.44,
+          34.81
+        ],
+        [
+          -119.44,
+          34.48
+        ],
+        [
+          -119.3,
+          34.48
+        ],
+        [
+          -119.47,
+          34.38
+        ],
+        [
+          -120.11,
+          34.47
+        ],
+        [
+          -120.46,
+          34.44
+        ],
+        [
+          -120.53,
+          34.54
+        ],
+        [
+          -120.64,
+          34.58
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.468b1bed437a6456730da0a0b0e062865c93313a.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.468b1bed437a6456730da0a0b0e062865c93313a.001.1",
+    "areaDesc": "Santa Barbara, CA; Ventura, CA",
+    "geocode": {
+      "SAME": [
+        "006083",
+        "006111"
+      ],
+      "UGC": [
+        "CAC083",
+        "CAC111"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC083",
+      "https://api.weather.gov/zones/county/CAC111"
+    ],
+    "references": [],
+    "sent": "2026-10-21T07:33:00-07:00",
+    "effective": "2026-10-21T07:33:00-07:00",
+    "onset": "2026-10-21T07:33:00-07:00",
+    "expires": "2026-10-21T19:30:00-07:00",
+    "ends": "2026-10-21T19:30:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 21 at 7:33AM PDT until October 21 at 7:30PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...Santa Barbara County in southwestern California...\nNorthwestern Ventura County in southwestern California...\n\n* WHEN...Until 730 PM PDT Wednesday.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 732 AM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. This  will cause urban and small stream flooding.\n- Rain rates between 0.50 and 1.00 inches per hour are possible\ntoday and tonight.\n- Some locations that will experience flooding include...\nSanta Barbara, Santa Ynez, Montecito, Point Conception,\nCarpinteria, Solvang, El Capitan State Beach, Refugio State\nBeach, Highway 101 through Gaviota State Park, Summerland,\nGoleta, Sisquoc, Figueroa Mountain, Lake Cachuma, Highway 154\nover San Marcos Pass, Big Pine Mountain, Santa Barbara Airport,\nMission Canyon and Hope Ranch.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 211433"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 730 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0065.261021T1433Z-261022T0230Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-21T19:30:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-21T17:29:35+00:00"
+}
