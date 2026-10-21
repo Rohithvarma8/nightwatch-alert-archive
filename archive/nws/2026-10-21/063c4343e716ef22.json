@@ -1,0 +1,129 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.577d5e4dcf81d0cd52d68cc92aced8b7cf6f5166.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.9,
+          39.17
+        ],
+        [
+          -120.14,
+          39.45
+        ],
+        [
+          -120,
+          39.45
+        ],
+        [
+          -120,
+          39.55
+        ],
+        [
+          -119.83,
+          39.6
+        ],
+        [
+          -119.71,
+          39.24
+        ],
+        [
+          -119.9,
+          39.17
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.577d5e4dcf81d0cd52d68cc92aced8b7cf6f5166.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.577d5e4dcf81d0cd52d68cc92aced8b7cf6f5166.001.1",
+    "areaDesc": "Greater Lake Tahoe Area; Greater Lake Tahoe Area; Greater Reno-Carson City-Minden Area",
+    "geocode": {
+      "SAME": [
+        "006003",
+        "006017",
+        "006057",
+        "006061",
+        "032005",
+        "032031",
+        "032510",
+        "032019",
+        "032029"
+      ],
+      "UGC": [
+        "CAZ072",
+        "NVZ002",
+        "NVZ003"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ072",
+      "https://api.weather.gov/zones/forecast/NVZ002",
+      "https://api.weather.gov/zones/forecast/NVZ003"
+    ],
+    "references": [],
+    "sent": "2026-10-21T16:19:00-07:00",
+    "effective": "2026-10-21T16:19:00-07:00",
+    "onset": "2026-10-21T16:19:00-07:00",
+    "expires": "2026-10-21T17:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Reno NV",
+    "headline": "Special Weather Statement issued October 21 at 4:19PM PDT by NWS Reno NV",
+    "description": "At 419 PM PDT, Doppler radar was tracking a strong thunderstorm over\nWashoe City, or 7 miles northeast of Incline Village, moving\nnorthwest at 30 mph.\n\nHAZARD...Wind gusts up to 40 mph and accumulating hail up to a half\ninch in diameter.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nReno, Incline Village, Verdi, Boca Reservoir, Galena, Washoe City,\nCaughlin Ranch, Floriston, Pleasant Valley, Mogul, New Washoe City,\nNorthwest Reno, Somersett, Incline Village-Crystal Bay, Verdi-Mogul\nand Hirschdale.",
+    "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.\n\nTorrential rainfall is also occurring with this storm and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSREV"
+      ],
+      "WMOidentifier": [
+        "WWUS85 KREV 212319"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT THE CENTRAL CARSON CITY AND SOUTHERN WASHOE COUNTY UNTIL 5 PM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-21T23:19:00-00:00...storm...152DEG...24KT...39.3,-119.86"
+      ],
+      "maxWindGust": [
+        "40 MPH"
+      ],
+      "maxHailSize": [
+        "0.50"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-21T23:44:15+00:00"
+}
