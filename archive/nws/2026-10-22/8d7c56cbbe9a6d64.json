@@ -1,0 +1,93 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d08465db019fd091e5e1dc6da2edcfa42ef805f.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3d08465db019fd091e5e1dc6da2edcfa42ef805f.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3d08465db019fd091e5e1dc6da2edcfa42ef805f.001.1",
+    "areaDesc": "Surprise Valley California; Lassen-Eastern Plumas-Eastern Sierra Counties; Western Nevada Basin and Range including Pyramid Lake; Northern Washoe County",
+    "geocode": {
+      "SAME": [
+        "006049",
+        "006035",
+        "006063",
+        "006091",
+        "032001",
+        "032019",
+        "032027",
+        "032031"
+      ],
+      "UGC": [
+        "CAZ070",
+        "CAZ071",
+        "NVZ004",
+        "NVZ005"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ070",
+      "https://api.weather.gov/zones/forecast/CAZ071",
+      "https://api.weather.gov/zones/forecast/NVZ004",
+      "https://api.weather.gov/zones/forecast/NVZ005"
+    ],
+    "references": [],
+    "sent": "2026-10-22T11:36:00-07:00",
+    "effective": "2026-10-22T11:36:00-07:00",
+    "onset": "2026-10-22T11:36:00-07:00",
+    "expires": "2026-10-23T05:00:00-07:00",
+    "ends": "2026-10-23T05:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Reno NV",
+    "headline": "Flood Watch issued October 22 at 11:36AM PDT until October 23 at 5:00AM PDT by NWS Reno NV",
+    "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Northeastern Lassen County and Surprise valley in\nCalifornia, and northern Washoe County and northwestern Pershing\nCounty in Nevada. The watch area includes the Biscar and S1-Vya\nburn scars.\n\n* WHEN...Through 5 AM PDT Friday.\n\n* IMPACTS...Small creeks and streams may flood rural roads. Increased\nsediment transport from burn scars may clog culverts and ditches.\n\n* ADDITIONAL DETAILS...\n- Storm total rainfall of 0.5 to 1.5 inches, locally 2 inches or\nmore, is possible through through early Friday. Heavier rain this\nafternoon and evening may briefly exceed 0.5 inch per hour.\nRunoff may linger overnight.\n- Vulnerable locations include remote ranches within and near the\nBiscar and S1-Vya burn scars, downstream drainages, and culverts\nalong US-395 from Stoney Creek Road north to Rye Patch Road.\n- http://www.weather.gov/safety/flood",
+    "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FFAREV"
+      ],
+      "WMOidentifier": [
+        "WGUS65 KREV 221836"
+      ],
+      "NWSheadline": [
+        "FLOOD WATCH IN EFFECT THROUGH EARLY FRIDAY MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.NEW.KREV.FA.A.0005.261022T1836Z-261023T1200Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-23T05:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "FFA"
+      ],
+      "NationalWeatherService": [
+        "FAA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}

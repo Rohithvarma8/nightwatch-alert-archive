@@ -1,0 +1,125 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9d3214f35101038879eed3eed1bb0b7d03ddf32.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.57,
+          36.58
+        ],
+        [
+          -120.62,
+          36.67
+        ],
+        [
+          -120.41,
+          36.88
+        ],
+        [
+          -120.03,
+          36.57
+        ],
+        [
+          -120.49,
+          36.42
+        ],
+        [
+          -120.57,
+          36.58
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e9d3214f35101038879eed3eed1bb0b7d03ddf32.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.e9d3214f35101038879eed3eed1bb0b7d03ddf32.001.1",
+    "areaDesc": "West Side Mountains north of 198; Los Banos - Dos Palos; Merced - Madera - Mendota; West Side of Fresno and Kings Counties; Caruthers - San Joaquin - Selma",
+    "geocode": {
+      "SAME": [
+        "006019",
+        "006047",
+        "006039",
+        "006031",
+        "006107"
+      ],
+      "UGC": [
+        "CAZ300",
+        "CAZ301",
+        "CAZ302",
+        "CAZ305",
+        "CAZ306"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ300",
+      "https://api.weather.gov/zones/forecast/CAZ301",
+      "https://api.weather.gov/zones/forecast/CAZ302",
+      "https://api.weather.gov/zones/forecast/CAZ305",
+      "https://api.weather.gov/zones/forecast/CAZ306"
+    ],
+    "references": [],
+    "sent": "2026-10-22T13:35:00-07:00",
+    "effective": "2026-10-22T13:35:00-07:00",
+    "onset": "2026-10-22T13:35:00-07:00",
+    "expires": "2026-10-22T14:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Special Weather Statement issued October 22 at 1:35PM PDT by NWS Hanford CA",
+    "description": "At 135 PM PDT, Doppler radar was tracking a strong thunderstorm 10\nmiles southwest of Mendota, or 32 miles southwest of Madera, moving\nnortheast at 15 mph.\n\nHAZARD...Wind gusts up to 30 mph and pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nMendota, Firebaugh, Cantua Creek, San Joaquin and Panoche Road.",
+    "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.\n\nFrequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 222035"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT SOUTHWESTERN MADERA AND WEST CENTRAL FRESNO COUNTIES UNTIL 2 PM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T20:35:00-00:00...storm...225DEG...13KT...36.64,-120.5"
+      ],
+      "maxWindGust": [
+        "30 MPH"
+      ],
+      "maxHailSize": [
+        "0.25"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}

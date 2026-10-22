@@ -1,0 +1,107 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3744a43e44144467c82300086ac3d0cb8dafb891.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.28,
+          33.96
+        ],
+        [
+          -118.16,
+          34.52
+        ],
+        [
+          -117.75,
+          34.43
+        ],
+        [
+          -117.78,
+          34.27
+        ],
+        [
+          -118,
+          33.94
+        ],
+        [
+          -118.28,
+          33.96
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3744a43e44144467c82300086ac3d0cb8dafb891.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3744a43e44144467c82300086ac3d0cb8dafb891.001.1",
+    "areaDesc": "Los Angeles, CA",
+    "geocode": {
+      "SAME": [
+        "006037"
+      ],
+      "UGC": [
+        "CAC037"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC037"
+    ],
+    "references": [],
+    "sent": "2026-10-22T10:50:00-07:00",
+    "effective": "2026-10-22T10:50:00-07:00",
+    "onset": "2026-10-22T10:50:00-07:00",
+    "expires": "2026-10-22T14:00:00-07:00",
+    "ends": "2026-10-22T14:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 22 at 10:50AM PDT until October 22 at 2:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...Northeastern Los Angeles County in southwestern\nCalifornia...\n\n* WHEN...Until 200 PM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nMinor debris flows are possible in the Eaton Burn Scar. Canyon rock\nand mud slides possible.\n\n* ADDITIONAL DETAILS...\n- At 1049 AM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. This  will cause urban and small stream flooding.\nCanyon rock and mud slides and minor debris flows possible.\n- Some locations that will experience flooding include...\nActon, Mount Wilson, Pasadena, Alhambra, Glendora, West Covina,\nWhittier, Downtown Los Angeles, Altadena, La Canada Flintridge,\nEagle Rock, Glendale, Valyermo, Sierra Madre, Monrovia, Angeles\nCrest Highway between Mount Wilson and Mount Waterman, Arcadia,\nAzusa, San Gabriel and El Monte.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nFlooding is occurring or is imminent. It is important to know where\nyou are relative to streams, rivers, or creeks which can become\nkillers in heavy rains. Campers and hikers should avoid streams or\ncreeks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 221750"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 2 PM PDT THIS AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0081.261022T1750Z-261022T2100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T14:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5f6a0fc38b8b1998f709582a443a1e82bc5a665.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.94,
+          34.04
+        ],
+        [
+          -117.93,
+          34.13
+        ],
+        [
+          -117.8,
+          34.17
+        ],
+        [
+          -117.76,
+          34.04
+        ],
+        [
+          -117.94,
+          34.04
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5f6a0fc38b8b1998f709582a443a1e82bc5a665.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.f5f6a0fc38b8b1998f709582a443a1e82bc5a665.001.1",
+    "areaDesc": "Eastern San Gabriel Mountains; Los Angeles County San Gabriel Valley",
+    "geocode": {
+      "SAME": [
+        "006037"
+      ],
+      "UGC": [
+        "CAZ380",
+        "CAZ548"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ380",
+      "https://api.weather.gov/zones/forecast/CAZ548"
+    ],
+    "references": [],
+    "sent": "2026-10-22T13:33:00-07:00",
+    "effective": "2026-10-22T13:33:00-07:00",
+    "onset": "2026-10-22T13:33:00-07:00",
+    "expires": "2026-10-22T14:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Special Weather Statement issued October 22 at 1:33PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "At 133 PM PDT, Doppler radar was tracking a strong thunderstorm over\nWest Covina, moving east at 15 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph and half inch hail. There\nis a small chance for a brief, weak tornado.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nSan Dimas...\nGlendora...\nWest Covina...\nPomona...\nLa Verne...\nCovina...\nAzusa...\nWalnut...\nand Irwindale.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nBe aware of torrential rainfall.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 222033"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT A SMALL PORTION OF SOUTHEASTERN LOS ANGELES COUNTY THROUGH 200 PM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T20:33:00-00:00...storm...266DEG...15KT...34.06,-117.91"
+      ],
+      "maxWindGust": [
+        "55 MPH"
+      ],
+      "maxHailSize": [
+        "0.50"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}

@@ -1,0 +1,126 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a928373fd7b43b2c589dfc9275182d25ecc5f35b.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.96,
+          35.73
+        ],
+        [
+          -120.13,
+          35.86
+        ],
+        [
+          -119.78,
+          36.13
+        ],
+        [
+          -119.54,
+          35.96
+        ],
+        [
+          -119.85,
+          35.65
+        ],
+        [
+          -119.96,
+          35.73
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a928373fd7b43b2c589dfc9275182d25ecc5f35b.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.a928373fd7b43b2c589dfc9275182d25ecc5f35b.001.1",
+    "areaDesc": "Coalinga - Avenal; West Side of Fresno and Kings Counties; West Side Mountains South of 198; Buttonwillow - Lost Hills - I5; Delano-Wasco-Shafter; Hanford - Corcoran - Lemoore",
+    "geocode": {
+      "SAME": [
+        "006019",
+        "006031",
+        "006029",
+        "006107"
+      ],
+      "UGC": [
+        "CAZ304",
+        "CAZ305",
+        "CAZ308",
+        "CAZ309",
+        "CAZ310",
+        "CAZ311"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ304",
+      "https://api.weather.gov/zones/forecast/CAZ305",
+      "https://api.weather.gov/zones/forecast/CAZ308",
+      "https://api.weather.gov/zones/forecast/CAZ309",
+      "https://api.weather.gov/zones/forecast/CAZ310",
+      "https://api.weather.gov/zones/forecast/CAZ311"
+    ],
+    "references": [],
+    "sent": "2026-10-22T13:42:00-07:00",
+    "effective": "2026-10-22T13:42:00-07:00",
+    "onset": "2026-10-22T13:42:00-07:00",
+    "expires": "2026-10-22T14:15:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Special Weather Statement issued October 22 at 1:42PM PDT by NWS Hanford CA",
+    "description": "At 142 PM PDT, Doppler radar was tracking a strong thunderstorm 18\nmiles southeast of Avenal, or 36 miles west of Delano, moving\nnortheast at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and half inch size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor damage to outdoor objects is\npossible.\n\nLocations impacted include...\nMainly rural areas of Southeastern Kings and Northwestern Kern\nCounties.",
+    "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.\n\nFrequent cloud to ground lightning is occurring with this storm.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 222042"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT SOUTHEASTERN KINGS AND NORTHWESTERN KERN COUNTIES UNTIL 215 PM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T20:41:00-00:00...storm...225DEG...20KT...35.85,-119.89"
+      ],
+      "maxWindGust": [
+        "50 MPH"
+      ],
+      "maxHailSize": [
+        "0.50"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d08d2e22d7d84cd03197f1e483be92ee6695bcd.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.12,
+          35.55
+        ],
+        [
+          -118.27,
+          35.72
+        ],
+        [
+          -118.02,
+          35.79
+        ],
+        [
+          -117.92,
+          35.79
+        ],
+        [
+          -117.92,
+          35.8
+        ],
+        [
+          -117.68,
+          35.79
+        ],
+        [
+          -118.12,
+          35.55
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5d08d2e22d7d84cd03197f1e483be92ee6695bcd.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.5d08d2e22d7d84cd03197f1e483be92ee6695bcd.001.1",
+    "areaDesc": "Kern, CA",
+    "geocode": {
+      "SAME": [
+        "006029"
+      ],
+      "UGC": [
+        "CAC029"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC029"
+    ],
+    "references": [],
+    "sent": "2026-10-22T12:41:00-07:00",
+    "effective": "2026-10-22T12:41:00-07:00",
+    "onset": "2026-10-22T12:41:00-07:00",
+    "expires": "2026-10-22T15:45:00-07:00",
+    "ends": "2026-10-22T15:45:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Flood Advisory issued October 22 at 12:41PM PDT until October 22 at 3:45PM PDT by NWS Hanford CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Northeastern Kern County in central California...\n\n* WHEN...Until 345 PM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways, especially Hwy 14, 178 and 395.  Some\nlow-water crossings may become impassable.\n\n* ADDITIONAL DETAILS...\n- At 1237 PM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. Overflowing poor drainage areas will cause minor\nflooding in the advisory area.\n- Some locations that will experience flooding include...\nOnyx, Walker Pass and Indian Wells Canyon.\n- Inyokern and China Lake.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSHNX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KHNX 221941"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 345 PM PDT THIS AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KHNX.FA.Y.0026.261022T1941Z-261022T2245Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T15:45:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T20:51:19+00:00"
+}
