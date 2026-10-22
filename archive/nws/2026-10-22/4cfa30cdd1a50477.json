@@ -1,0 +1,120 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c60de7d3fd4d2437b025e22ad8ff2abaf01ee28.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.21,
+          36.45
+        ],
+        [
+          -120.03,
+          36.53
+        ],
+        [
+          -119.92,
+          36.46
+        ],
+        [
+          -120.11,
+          36.36
+        ],
+        [
+          -120.16,
+          36.38
+        ],
+        [
+          -120.21,
+          36.45
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c60de7d3fd4d2437b025e22ad8ff2abaf01ee28.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4c60de7d3fd4d2437b025e22ad8ff2abaf01ee28.001.1",
+    "areaDesc": "Fresno, CA",
+    "geocode": {
+      "SAME": [
+        "006019"
+      ],
+      "UGC": [
+        "CAC019"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC019"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e20b626376b65f23a14dc0863fbb81de6232eb31.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.e20b626376b65f23a14dc0863fbb81de6232eb31.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T15:19:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T15:47:00-07:00",
+    "effective": "2026-10-22T15:47:00-07:00",
+    "onset": "2026-10-22T15:47:00-07:00",
+    "expires": "2026-10-22T18:15:00-07:00",
+    "ends": "2026-10-22T18:15:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Flash Flood Warning issued October 22 at 3:47PM PDT until October 22 at 6:15PM PDT by NWS Hanford CA",
+    "description": "At 347 PM PDT, Doppler radar and automated rain gauges indicated\nthunderstorms producing heavy rain across the warned area. Between 1\nand 3 inches of rain have fallen. Additional rainfall amounts of 0.2\nto 0.7 inches are possible in the warned area. Flash flooding is\nongoing or expected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nFive Points.\n\nThis includes the following streams and drainages...\nCantua Creek.",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FFSHNX"
+      ],
+      "WMOidentifier": [
+        "WGUS76 KHNX 222247"
+      ],
+      "NWSheadline": [
+        "FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 615 PM PDT THIS EVENING FOR CENTRAL FRESNO COUNTY"
+      ],
+      "flashFloodDetection": [
+        "RADAR AND GAUGE INDICATED"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.CON.KHNX.FF.W.0001.000000T0000Z-261023T0115Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T18:15:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "FFS"
+      ],
+      "NationalWeatherService": [
+        "FFW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T23:48:36+00:00"
+}

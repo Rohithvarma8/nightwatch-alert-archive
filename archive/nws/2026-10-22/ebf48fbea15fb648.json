@@ -1,0 +1,117 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1268eb84a6555c1705c56c4996d3c2dbd66bb2a.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c1268eb84a6555c1705c56c4996d3c2dbd66bb2a.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.c1268eb84a6555c1705c56c4996d3c2dbd66bb2a.001.1",
+    "areaDesc": "West Side Mountains South of 198; Buttonwillow - Lost Hills - I5; Buena Vista; Bakersfield; South End San Joaquin Valley; Kern River Valley; Piute Walker Basin; Tehachapi; Grapevine; Frazier Mountain Communities; Indian Wells Valley; Mojave Desert Slopes; Mojave Desert",
+    "geocode": {
+      "SAME": [
+        "006019",
+        "006029",
+        "006031",
+        "006107"
+      ],
+      "UGC": [
+        "CAZ308",
+        "CAZ309",
+        "CAZ313",
+        "CAZ314",
+        "CAZ316",
+        "CAZ332",
+        "CAZ333",
+        "CAZ334",
+        "CAZ335",
+        "CAZ336",
+        "CAZ337",
+        "CAZ338",
+        "CAZ339"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ308",
+      "https://api.weather.gov/zones/forecast/CAZ309",
+      "https://api.weather.gov/zones/forecast/CAZ313",
+      "https://api.weather.gov/zones/forecast/CAZ314",
+      "https://api.weather.gov/zones/forecast/CAZ316",
+      "https://api.weather.gov/zones/forecast/CAZ332",
+      "https://api.weather.gov/zones/forecast/CAZ333",
+      "https://api.weather.gov/zones/forecast/CAZ334",
+      "https://api.weather.gov/zones/forecast/CAZ335",
+      "https://api.weather.gov/zones/forecast/CAZ336",
+      "https://api.weather.gov/zones/forecast/CAZ337",
+      "https://api.weather.gov/zones/forecast/CAZ338",
+      "https://api.weather.gov/zones/forecast/CAZ339"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a7ac5923009a0bc14266fa0974e14de29bb3f26c.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.a7ac5923009a0bc14266fa0974e14de29bb3f26c.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T05:38:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T14:07:00-07:00",
+    "effective": "2026-10-22T14:07:00-07:00",
+    "onset": "2026-10-22T14:07:00-07:00",
+    "expires": "2026-10-22T20:00:00-07:00",
+    "ends": "2026-10-22T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Flood Watch issued October 22 at 2:07PM PDT until October 22 at 8:00PM PDT by NWS Hanford CA",
+    "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of central California, including the following\nareas, Bakersfield, Buena Vista, Buttonwillow - Lost Hills - I5,\nFrazier Mountain Communities, Grapevine, Indian Wells Valley, Kern\nRiver Valley, Mojave Desert, Mojave Desert Slopes, Piute Walker\nBasin, South End San Joaquin Valley, Tehachapi and West Side\nMountains South of 198.\n\n* WHEN...Until 8 PM PDT this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas. Low-water\ncrossings may be flooded. Storm drains and ditches may become\nclogged with debris.\n\n* ADDITIONAL DETAILS...\n- Heavy rainfall from thunderstorms.\n- http://www.weather.gov/safety/flood",
+    "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FFAHNX"
+      ],
+      "WMOidentifier": [
+        "WGUS66 KHNX 222107"
+      ],
+      "NWSheadline": [
+        "FLOOD WATCH REMAINS IN EFFECT UNTIL 8 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.CON.KHNX.FA.A.0003.000000T0000Z-261023T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T20:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b614ec501b372216d19719117aeb078bd856cd1f.001.1,2026-10-21T21:32:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.025181d835f5d8ee0348336e28bfbdf64203ec41.001.1,2026-10-21T13:45:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e9996594fa227d8f7bf5a62418b27691eaf8f47a.001.1,2026-10-21T05:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2b973bba8b03a0158a246c408c2d335ea71fd64a.001.1,2026-10-20T20:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5b68d3158bd1b48064bfd99a01f723e4227a156f.001.1,2026-10-20T13:16:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "FFA"
+      ],
+      "NationalWeatherService": [
+        "FAA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T23:48:36+00:00"
+}

@@ -1,0 +1,117 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56599e25c4f43e364e688f29faace93613a16bc5.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.41,
+          35.33
+        ],
+        [
+          -119.56,
+          35.46
+        ],
+        [
+          -119.36,
+          35.6
+        ],
+        [
+          -119.21,
+          35.47
+        ],
+        [
+          -119.22,
+          35.46
+        ],
+        [
+          -119.41,
+          35.33
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.56599e25c4f43e364e688f29faace93613a16bc5.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.56599e25c4f43e364e688f29faace93613a16bc5.001.1",
+    "areaDesc": "Buttonwillow - Lost Hills - I5; Delano-Wasco-Shafter",
+    "geocode": {
+      "SAME": [
+        "006029",
+        "006031",
+        "006107"
+      ],
+      "UGC": [
+        "CAZ309",
+        "CAZ310"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ309",
+      "https://api.weather.gov/zones/forecast/CAZ310"
+    ],
+    "references": [],
+    "sent": "2026-10-22T16:37:00-07:00",
+    "effective": "2026-10-22T16:37:00-07:00",
+    "onset": "2026-10-22T16:37:00-07:00",
+    "expires": "2026-10-22T17:15:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Hanford CA",
+    "headline": "Special Weather Statement issued October 22 at 4:37PM PDT by NWS Hanford CA",
+    "description": "At 437 PM PDT, Doppler radar was tracking a strong thunderstorm 10\nmiles northwest of Tupman, or 25 miles west of Bakersfield, moving\nnortheast at 25 mph.\n\nHAZARD...Pea size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Minor damage to outdoor objects is possible.\n\nLocations impacted include...\nWasco, Shafter, Harris Ranch and Buttonwillow.",
+    "instruction": "Monitor the weather situation closely and be alert for threatening\nweather conditions.\n\nThis storm may intensify, so be certain to monitor local radio\nstations and available television stations for additional information\nand possible warnings from the National Weather Service.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSHNX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KHNX 222337"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT NORTH CENTRAL KERN COUNTY UNTIL 515 PM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T23:36:00-00:00...storm...225DEG...20KT...35.42,-119.44"
+      ],
+      "maxWindGust": [
+        "Up to 30 MPH"
+      ],
+      "maxHailSize": [
+        "0.25"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T23:48:36+00:00"
+}

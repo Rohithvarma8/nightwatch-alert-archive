@@ -1,0 +1,114 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3af2324d0504e8af45d2eea47602f9933af0b9.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.65,
+          36.27
+        ],
+        [
+          -117.29,
+          36.15
+        ],
+        [
+          -117.28,
+          36.47
+        ],
+        [
+          -117.47,
+          36.49
+        ],
+        [
+          -117.69,
+          36.37
+        ],
+        [
+          -117.65,
+          36.27
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8f3af2324d0504e8af45d2eea47602f9933af0b9.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.8f3af2324d0504e8af45d2eea47602f9933af0b9.001.1",
+    "areaDesc": "Inyo, CA",
+    "geocode": {
+      "SAME": [
+        "006027"
+      ],
+      "UGC": [
+        "CAC027"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC027"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f25b05ababe8a107c2e48234a54297e6a02de447.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.f25b05ababe8a107c2e48234a54297e6a02de447.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T14:01:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T15:51:00-07:00",
+    "effective": "2026-10-22T15:51:00-07:00",
+    "onset": "2026-10-22T15:51:00-07:00",
+    "expires": "2026-10-22T17:00:00-07:00",
+    "ends": "2026-10-22T17:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Flood Advisory issued October 22 at 3:51PM PDT until October 22 at 5:00PM PDT by NWS Las Vegas NV",
+    "description": "Showers and thunderstorms over the past 24 hours have resulted in\nminor flooding and road closures around Panamint Springs. Continued\nshowers this afternoon may lead to additional flooding in flood prone\nareas.\n\n* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...South Central Inyo County in south central California...\n\n* WHEN...Until 500 PM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 351 PM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Some locations that will experience flooding include...\nPanamint Springs and Darwin.\n- Watch for flooded areas along CA 190 and Panamint Valley Rd.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSVEF"
+      ],
+      "WMOidentifier": [
+        "WGUS85 KVEF 222251"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY REMAINS IN EFFECT UNTIL 5 PM PDT THIS AFTERNOON"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KVEF.FA.Y.0115.000000T0000Z-261023T0000Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T17:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T23:48:36+00:00"
+}

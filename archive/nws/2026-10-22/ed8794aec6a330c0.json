@@ -1,0 +1,92 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.142c149b5e03df590c0ae4718cb9fdb09d11b3fe.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.142c149b5e03df590c0ae4718cb9fdb09d11b3fe.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.142c149b5e03df590c0ae4718cb9fdb09d11b3fe.001.1",
+    "areaDesc": "Greater Lake Tahoe Area; Greater Lake Tahoe Area",
+    "geocode": {
+      "SAME": [
+        "006003",
+        "006017",
+        "006057",
+        "006061",
+        "032005",
+        "032031",
+        "032510"
+      ],
+      "UGC": [
+        "CAZ072",
+        "NVZ002"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ072",
+      "https://api.weather.gov/zones/forecast/NVZ002"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.968a40ee36114d1bd1f9dd149fd9c0828648eb44.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.968a40ee36114d1bd1f9dd149fd9c0828648eb44.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T13:55:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T13:58:00-07:00",
+    "effective": "2026-10-22T13:58:00-07:00",
+    "onset": "2026-10-23T20:00:00-07:00",
+    "expires": "2026-10-23T17:00:00-07:00",
+    "ends": "2026-10-24T08:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Lake Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Reno NV",
+    "headline": "Lake Wind Advisory issued October 22 at 1:58PM PDT until October 24 at 8:00AM PDT by NWS Reno NV",
+    "description": "* WHAT...East winds 10 to 20 mph with gusts up to 40 mph and waves 2\nto 4 feet for Lake Tahoe.\n\n* WHERE...Greater Lake Tahoe Area.\n\n* WHEN...From 8 PM Friday to 8 AM PDT Saturday.\n\n* IMPACTS...Strong winds and rough waves on area lakes will create\nhazardous conditions for small craft.",
+    "instruction": "Check lake conditions before heading out and be prepared for a sudden\nincrease in winds and wave heights. Consider postponing boating\nactivities on the lake until a day with less wind.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWREV"
+      ],
+      "WMOidentifier": [
+        "WWUS75 KREV 222058"
+      ],
+      "NWSheadline": [
+        "LAKE WIND ADVISORY IN EFFECT FROM 8 PM FRIDAY TO 8 AM PDT SATURDAY FOR LAKE TAHOE"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXT.KREV.LW.Y.0029.261024T0300Z-261024T1500Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-24T08:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "LWY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T23:48:36+00:00"
+}
