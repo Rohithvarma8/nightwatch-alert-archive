@@ -1,0 +1,84 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebf52f6f51ca6559a80cf6a9f8b61f10c1fdd7da.002.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ebf52f6f51ca6559a80cf6a9f8b61f10c1fdd7da.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.ebf52f6f51ca6559a80cf6a9f8b61f10c1fdd7da.002.1",
+    "areaDesc": "San Bernardino County Mountains",
+    "geocode": {
+      "SAME": [
+        "006071"
+      ],
+      "UGC": [
+        "CAZ055"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ055"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b84a83bbcf4283d67b945ca65646965d752ecdbc.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.b84a83bbcf4283d67b945ca65646965d752ecdbc.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-21T22:30:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T00:14:00-07:00",
+    "effective": "2026-10-22T00:14:00-07:00",
+    "onset": "2026-10-22T00:14:00-07:00",
+    "expires": "2026-10-22T06:00:00-07:00",
+    "ends": "2026-10-22T18:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Wind Advisory issued October 22 at 12:14AM PDT until October 22 at 6:00PM PDT by NWS San Diego CA",
+    "description": "* WHAT...Southwest winds 20 to 30 mph with gusts to 50 mph.\n\n* WHERE...San Bernardino County Mountains.\n\n* WHEN...Until 6 PM PDT this evening.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 220714"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY NOW IN EFFECT UNTIL 6 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXT.KSGX.WI.Y.0025.000000T0000Z-261023T0100Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T18:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T12:52:14+00:00"
+}

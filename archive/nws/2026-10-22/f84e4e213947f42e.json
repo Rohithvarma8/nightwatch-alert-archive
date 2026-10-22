@@ -1,0 +1,124 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd9e196ec12d870e93029bf6f355449fefe54614.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.45,
+          34.35
+        ],
+        [
+          -119.46,
+          34.38
+        ],
+        [
+          -119.52,
+          34.39
+        ],
+        [
+          -119.52,
+          34.47
+        ],
+        [
+          -119.4,
+          34.44
+        ],
+        [
+          -119.43,
+          34.35
+        ],
+        [
+          -119.45,
+          34.35
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fd9e196ec12d870e93029bf6f355449fefe54614.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.fd9e196ec12d870e93029bf6f355449fefe54614.001.1",
+    "areaDesc": "Santa Barbara County Southeastern Coast; Santa Ynez Mountains Eastern Range; Ventura County Beaches; Lake Casitas",
+    "geocode": {
+      "SAME": [
+        "006083",
+        "006111"
+      ],
+      "UGC": [
+        "CAZ350",
+        "CAZ352",
+        "CAZ354",
+        "CAZ356"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ350",
+      "https://api.weather.gov/zones/forecast/CAZ352",
+      "https://api.weather.gov/zones/forecast/CAZ354",
+      "https://api.weather.gov/zones/forecast/CAZ356"
+    ],
+    "references": [],
+    "sent": "2026-10-22T05:34:00-07:00",
+    "effective": "2026-10-22T05:34:00-07:00",
+    "onset": "2026-10-22T05:34:00-07:00",
+    "expires": "2026-10-22T06:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Special Weather Statement issued October 22 at 5:34AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "At 534 AM PDT, Doppler radar was tracking a strong thunderstorm over\nRincon Point, or 9 miles east of Montecito, moving north at 20 mph.\n\nHAZARD...Wind gusts up to 40 mph. Brief, weak tornado possible.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nCarpinteria...\nand La Conchita.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with this storm and may lead to\nlocalized flooding. Do not drive your vehicle through flooded\nroadways.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 221234"
+      ],
+      "NWSheadline": [
+        "A STRONG THUNDERSTORM WILL IMPACT EXTREME WESTERN VENTURA AND SOUTHEASTERN SANTA BARBARA COUNTIES THROUGH 600 AM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T12:34:00-00:00...storm...190DEG...16KT...34.39,-119.47"
+      ],
+      "maxWindGust": [
+        "40 MPH"
+      ],
+      "maxHailSize": [
+        "0.00"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T12:52:14+00:00"
+}

@@ -1,0 +1,153 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d396f93fd61017a90125d86c31fc5baf9fe3160.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.63,
+          35.8
+        ],
+        [
+          -117.68,
+          35.8
+        ],
+        [
+          -117.73,
+          37.01
+        ],
+        [
+          -117.34,
+          37.1
+        ],
+        [
+          -117,
+          36.85
+        ],
+        [
+          -116.66,
+          36.59
+        ],
+        [
+          -116.58,
+          35.71
+        ],
+        [
+          -117.63,
+          35.6
+        ],
+        [
+          -117.63,
+          35.65
+        ],
+        [
+          -117.62,
+          35.65
+        ],
+        [
+          -117.62,
+          35.68
+        ],
+        [
+          -117.65,
+          35.68
+        ],
+        [
+          -117.65,
+          35.71
+        ],
+        [
+          -117.63,
+          35.71
+        ],
+        [
+          -117.63,
+          35.8
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d396f93fd61017a90125d86c31fc5baf9fe3160.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.0d396f93fd61017a90125d86c31fc5baf9fe3160.001.1",
+    "areaDesc": "Inyo, CA; San Bernardino, CA",
+    "geocode": {
+      "SAME": [
+        "006027",
+        "006071"
+      ],
+      "UGC": [
+        "CAC027",
+        "CAC071"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC027",
+      "https://api.weather.gov/zones/county/CAC071"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e806914607c89206095d72f8cee061fd3da3f9d.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.7e806914607c89206095d72f8cee061fd3da3f9d.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T01:44:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T04:34:00-07:00",
+    "effective": "2026-10-22T04:34:00-07:00",
+    "onset": "2026-10-22T04:34:00-07:00",
+    "expires": "2026-10-22T06:45:00-07:00",
+    "ends": "2026-10-22T06:45:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Las Vegas NV",
+    "headline": "Flood Advisory issued October 22 at 4:34AM PDT until October 22 at 6:45AM PDT by NWS Las Vegas NV",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...South Central Inyo County in south central California...\nSan Bernardino County in southern California...\n\n* WHEN...Until 645 AM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas. Some\nlow-water crossings may become impassable.\n\n* ADDITIONAL DETAILS...\n- At 433 AM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Some locations that will experience flooding include...\nStovepipe Wells, Furnace Creek, Panamint Springs, Darwin, Texas\nSprings Campground, Homewood Canyon-Valley Wells, Trona, Mesquite\nSprings Campground, Scottys Castle and Searles Valley.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSVEF"
+      ],
+      "WMOidentifier": [
+        "WGUS85 KVEF 221134"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY REMAINS IN EFFECT UNTIL 645 AM PDT THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.CON.KVEF.FA.Y.0113.000000T0000Z-261022T1345Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T06:45:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T12:52:14+00:00"
+}
