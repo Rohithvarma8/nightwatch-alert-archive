@@ -1,0 +1,163 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f20ef42994e10d4b977575164497706d1f07e36c.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.34,
+          34.54
+        ],
+        [
+          -120.47,
+          34.87
+        ],
+        [
+          -120.57,
+          34.98
+        ],
+        [
+          -120.44,
+          34.99
+        ],
+        [
+          -120.3,
+          34.91
+        ],
+        [
+          -120.29,
+          34.95
+        ],
+        [
+          -120.33,
+          35.01
+        ],
+        [
+          -120.21,
+          35.02
+        ],
+        [
+          -120.14,
+          35.09
+        ],
+        [
+          -120.08,
+          35.11
+        ],
+        [
+          -119.75,
+          34.97
+        ],
+        [
+          -119.66,
+          34.97
+        ],
+        [
+          -119.54,
+          34.9
+        ],
+        [
+          -119.44,
+          34.9
+        ],
+        [
+          -119.44,
+          34.44
+        ],
+        [
+          -119.48,
+          34.38
+        ],
+        [
+          -119.44,
+          34.36
+        ],
+        [
+          -119.44,
+          34.33
+        ],
+        [
+          -120.31,
+          34.4
+        ],
+        [
+          -120.34,
+          34.54
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f20ef42994e10d4b977575164497706d1f07e36c.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.f20ef42994e10d4b977575164497706d1f07e36c.001.1",
+    "areaDesc": "Santa Barbara, CA",
+    "geocode": {
+      "SAME": [
+        "006083"
+      ],
+      "UGC": [
+        "CAC083"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC083"
+    ],
+    "references": [],
+    "sent": "2026-10-21T20:28:00-07:00",
+    "effective": "2026-10-21T20:28:00-07:00",
+    "onset": "2026-10-21T20:28:00-07:00",
+    "expires": "2026-10-22T00:00:00-07:00",
+    "ends": "2026-10-22T00:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 21 at 8:28PM PDT until October 22 at 12:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Central to eastern Santa Barbara County in southwestern\nCalifornia...\n\n* WHEN...Until midnight PDT tonight.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 823 PM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Rock slides and mud slides are possible. Rainfall over burn scars\ncan lead to minor debris flows, leading to mud, and rocks to flow\nover nearby roadways.\n- Some locations that will experience flooding include...\nSanta Maria, Santa Barbara, Santa Ynez, Montecito, Carpinteria,\nSolvang, El Capitan State Beach, Refugio State Beach, Isla Vista,\nLos Alamos, Highway 101 through Gaviota State Park, Cuyama,\nSummerland, Orcutt, Rincon Point, La Conchita, Goleta, Buellton\nand Sisquoc.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 220328"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL MIDNIGHT PDT TONIGHT"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0069.261022T0328Z-261022T0700Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T00:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}

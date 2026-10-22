@@ -1,0 +1,79 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b84a83bbcf4283d67b945ca65646965d752ecdbc.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b84a83bbcf4283d67b945ca65646965d752ecdbc.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.b84a83bbcf4283d67b945ca65646965d752ecdbc.001.1",
+    "areaDesc": "San Bernardino County Mountains; Apple and Lucerne Valleys",
+    "geocode": {
+      "SAME": [
+        "006071"
+      ],
+      "UGC": [
+        "CAZ055",
+        "CAZ060"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ055",
+      "https://api.weather.gov/zones/forecast/CAZ060"
+    ],
+    "references": [],
+    "sent": "2026-10-21T22:30:00-07:00",
+    "effective": "2026-10-21T22:30:00-07:00",
+    "onset": "2026-10-21T22:30:00-07:00",
+    "expires": "2026-10-22T06:00:00-07:00",
+    "ends": "2026-10-22T06:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS San Diego CA",
+    "headline": "Wind Advisory issued October 21 at 10:30PM PDT until October 22 at 6:00AM PDT by NWS San Diego CA",
+    "description": "* WHAT...South winds 20 to 30 mph with gusts up to 55 mph. Isolated\ngusts to 65 mph.\n\n* WHERE...Apple and Lucerne Valleys and San Bernardino County\nMountains.\n\n* WHEN...Until 6 AM PDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWSGX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KSGX 220530"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT UNTIL 6 AM PDT THURSDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KSGX.WI.Y.0025.261022T0530Z-261022T1300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T06:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}

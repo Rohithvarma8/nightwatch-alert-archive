@@ -1,0 +1,127 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa8da717453b9bb58fa64b658f4f0e82c5aafaf5.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.4,
+          34.81
+        ],
+        [
+          -120.19,
+          34.79
+        ],
+        [
+          -120.01,
+          34.67
+        ],
+        [
+          -119.44,
+          34.66
+        ],
+        [
+          -119.44,
+          34.44
+        ],
+        [
+          -119.45,
+          34.43
+        ],
+        [
+          -119.45,
+          34.4
+        ],
+        [
+          -119.48,
+          34.38
+        ],
+        [
+          -119.5,
+          34.37
+        ],
+        [
+          -120.37,
+          34.42
+        ],
+        [
+          -120.4,
+          34.81
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa8da717453b9bb58fa64b658f4f0e82c5aafaf5.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.aa8da717453b9bb58fa64b658f4f0e82c5aafaf5.001.1",
+    "areaDesc": "Santa Barbara, CA",
+    "geocode": {
+      "SAME": [
+        "006083"
+      ],
+      "UGC": [
+        "CAC083"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC083"
+    ],
+    "references": [],
+    "sent": "2026-10-21T21:11:00-07:00",
+    "effective": "2026-10-21T21:11:00-07:00",
+    "onset": "2026-10-21T21:11:00-07:00",
+    "expires": "2026-10-22T02:00:00-07:00",
+    "ends": "2026-10-22T02:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flash Flood Warning issued October 21 at 9:11PM PDT until October 22 at 2:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "FFWLOX\n\nThe National Weather Service in Los Angeles/Oxnard has issued a\n\n* Flash Flood Warning for...\nSouthern Santa Barbara County in southwestern California...\n\n* Until 200 AM PDT.\n\n* At 911 PM PDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. The expected rainfall rate is\n0.7 to 1 inch in 1 hour. Flash flooding is ongoing or expected to\nbegin shortly. Rock slides and mud slides are likely.\n\nHAZARD...Flash flooding caused by thunderstorms. Rock slides and\nmud slides.\n\nSOURCE...Gauges reported.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas. Rock slides and mud slides.\n\n* Some locations that will experience flash flooding include...\nPortions of southern Santa Barbara County, including the Santa Ynez\nRange and the South Coast, and the City of Santa Barbara.",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nWater can rise rapidly in hilly terrain and in urban areas.\n\nRock slides and mud slides are likely, especially around mountain and\nfoothill roadways.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FFWLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS56 KLOX 220411"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FF.W.0012.261022T0411Z-261022T0900Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T02:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "FFW"
+      ],
+      "NationalWeatherService": [
+        "FFW"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}

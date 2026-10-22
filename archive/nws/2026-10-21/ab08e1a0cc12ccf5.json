@@ -1,0 +1,186 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fecb0d709018671dd59aee65ebff437b91f9873.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -119.09,
+          34.18
+        ],
+        [
+          -119.39,
+          34.43
+        ],
+        [
+          -119.64,
+          34.6
+        ],
+        [
+          -119.48,
+          34.92
+        ],
+        [
+          -119.47,
+          34.9
+        ],
+        [
+          -119.28,
+          34.88
+        ],
+        [
+          -119.27,
+          34.86
+        ],
+        [
+          -119.25,
+          34.86
+        ],
+        [
+          -119.24,
+          34.81
+        ],
+        [
+          -118.98,
+          34.81
+        ],
+        [
+          -118.97,
+          34.79
+        ],
+        [
+          -118.88,
+          34.79
+        ],
+        [
+          -118.89,
+          34.81
+        ],
+        [
+          -118.87,
+          34.82
+        ],
+        [
+          -118.87,
+          34.81
+        ],
+        [
+          -118.82,
+          34.65
+        ],
+        [
+          -119.09,
+          34.18
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3fecb0d709018671dd59aee65ebff437b91f9873.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3fecb0d709018671dd59aee65ebff437b91f9873.001.1",
+    "areaDesc": "Cuyama Valley; San Luis Obispo County Mountains; Santa Ynez Mountains Eastern Range; Santa Barbara County Interior Mountains; Ventura County Beaches; Ventura County Inland Coast; Lake Casitas; Ojai Valley; Central Ventura County Valleys; Southeastern Ventura County Valleys; Santa Susana Mountains; Southern Ventura County Mountains; Northern Ventura County Mountains; Interstate 5 Corridor",
+    "geocode": {
+      "SAME": [
+        "006083",
+        "006079",
+        "006111",
+        "006037"
+      ],
+      "UGC": [
+        "CAZ038",
+        "CAZ345",
+        "CAZ352",
+        "CAZ353",
+        "CAZ354",
+        "CAZ355",
+        "CAZ356",
+        "CAZ357",
+        "CAZ358",
+        "CAZ374",
+        "CAZ375",
+        "CAZ376",
+        "CAZ377",
+        "CAZ378"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ038",
+      "https://api.weather.gov/zones/forecast/CAZ345",
+      "https://api.weather.gov/zones/forecast/CAZ352",
+      "https://api.weather.gov/zones/forecast/CAZ353",
+      "https://api.weather.gov/zones/forecast/CAZ354",
+      "https://api.weather.gov/zones/forecast/CAZ355",
+      "https://api.weather.gov/zones/forecast/CAZ356",
+      "https://api.weather.gov/zones/forecast/CAZ357",
+      "https://api.weather.gov/zones/forecast/CAZ358",
+      "https://api.weather.gov/zones/forecast/CAZ374",
+      "https://api.weather.gov/zones/forecast/CAZ375",
+      "https://api.weather.gov/zones/forecast/CAZ376",
+      "https://api.weather.gov/zones/forecast/CAZ377",
+      "https://api.weather.gov/zones/forecast/CAZ378"
+    ],
+    "references": [],
+    "sent": "2026-10-21T23:39:00-07:00",
+    "effective": "2026-10-21T23:39:00-07:00",
+    "onset": "2026-10-21T23:39:00-07:00",
+    "expires": "2026-10-22T00:30:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Special Weather Statement issued October 21 at 11:39PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "At 1137 PM PDT, Doppler radar was tracking strong thunderstorms along\na line extending from 7 miles southeast of Cuyama to Rose Valley to\nCamarillo. Movement was northeast at 30 mph.\n\nHAZARD...Wind gusts of 50 to 55 mph. Small chance for a brief, weak\ntornado.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nOxnard...\nEastern Ventura...\nCamarillo...\nOjai...\nSanta Paula...\nRose Valley...\nLockwood Valley...\nMeiners Oaks...\nReyes Peak...\nOld Man Mountain...\nVentucopa...\nHighway 33 between Wheeler Springs and Rose Valley Road...\nAlamo Mountain...\nTopatopa Peak...\nFrazier Mountain...\nHighway 33 from Lockwood Valley Road to the Santa Barbara County\nline...\nEl Rio...\nLake Casitas...\nand Interstate 5 over the Grapevine.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with these storms and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.\n\ncloud to ground lightning is occurring with these storms.\nLightning can strike 10 miles away from a thunderstorm. Seek a safe\nshelter inside a building or vehicle.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 220639"
+      ],
+      "NWSheadline": [
+        "STRONG THUNDERSTORMS WILL IMPACT VENTURA...NORTHWESTERN LOS ANGELES...NORTH CENTRAL SANTA BARBARA AND SOUTHEASTERN SAN LUIS OBISPO COUNTIES THROUGH 1230 AM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T06:37:00-00:00...storm...219DEG...20KT...34.89,-119.5 34.56,-119.22 34.2,-119.03"
+      ],
+      "maxWindGust": [
+        "55 MPH"
+      ],
+      "maxHailSize": [
+        "0.00"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}

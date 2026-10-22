@@ -1,0 +1,79 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e38faec8360f0f6fe675e29af371a4022ce65d1.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6e38faec8360f0f6fe675e29af371a4022ce65d1.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.6e38faec8360f0f6fe675e29af371a4022ce65d1.001.1",
+    "areaDesc": "Western San Gabriel Mountains and Highway 14 Corridor; Eastern San Gabriel Mountains",
+    "geocode": {
+      "SAME": [
+        "006037"
+      ],
+      "UGC": [
+        "CAZ379",
+        "CAZ380"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ379",
+      "https://api.weather.gov/zones/forecast/CAZ380"
+    ],
+    "references": [],
+    "sent": "2026-10-21T22:03:00-07:00",
+    "effective": "2026-10-21T22:03:00-07:00",
+    "onset": "2026-10-21T23:00:00-07:00",
+    "expires": "2026-10-22T03:00:00-07:00",
+    "ends": "2026-10-22T03:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Wind Advisory issued October 21 at 10:03PM PDT until October 22 at 3:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...South to southwest winds 25 to 35 mph with gusts up to 55\nmph expected.\n\n* WHERE...Eastern San Gabriel Mountains and Western San Gabriel\nMountains and Highway 14 Corridor.\n\n* WHEN...Until 3 AM PDT Thursday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+    "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KLOX 220503"
+      ],
+      "NWSheadline": [
+        "WIND ADVISORY IN EFFECT UNTIL 3 AM PDT THURSDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.WI.Y.0069.261022T0600Z-261022T1000Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T03:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "WIY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}

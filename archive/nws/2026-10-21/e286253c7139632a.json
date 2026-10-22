@@ -1,0 +1,143 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82154cbc45fa9909bfb773fdf54bd4c572e93504.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.77,
+          34.01
+        ],
+        [
+          -117.8,
+          34.02
+        ],
+        [
+          -117.87,
+          34.11
+        ],
+        [
+          -118.05,
+          34.22
+        ],
+        [
+          -118.04,
+          34.49
+        ],
+        [
+          -117.66,
+          34.45
+        ],
+        [
+          -117.65,
+          34.29
+        ],
+        [
+          -117.68,
+          34.17
+        ],
+        [
+          -117.68,
+          34.15
+        ],
+        [
+          -117.69,
+          34.14
+        ],
+        [
+          -117.7,
+          34.11
+        ],
+        [
+          -117.72,
+          34.06
+        ],
+        [
+          -117.73,
+          34.02
+        ],
+        [
+          -117.77,
+          34.02
+        ],
+        [
+          -117.77,
+          34.01
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.82154cbc45fa9909bfb773fdf54bd4c572e93504.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.82154cbc45fa9909bfb773fdf54bd4c572e93504.001.1",
+    "areaDesc": "Los Angeles, CA",
+    "geocode": {
+      "SAME": [
+        "006037"
+      ],
+      "UGC": [
+        "CAC037"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC037"
+    ],
+    "references": [],
+    "sent": "2026-10-21T21:49:00-07:00",
+    "effective": "2026-10-21T21:49:00-07:00",
+    "onset": "2026-10-21T21:49:00-07:00",
+    "expires": "2026-10-22T02:00:00-07:00",
+    "ends": "2026-10-22T02:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 21 at 9:49PM PDT until October 22 at 2:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Northeastern Los Angeles County including the eastern San\nGabriel Mountains in southwestern California...\n\n* WHEN...Until 200 AM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 947 PM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. Minor flooding is ongoing or expected to begin\nshortly in the advisory area.\n- Rock slides and mudslides are possible.\n- Some locations that will experience flooding include...\nWrightwood, Glendora, San Dimas, Pomona, La Verne, Valyermo,\nFalling Springs, Angeles Crest Highway between Mount Waterman and\nWrightwood, Angeles Crest Highway between Mount Wilson and Mount\nWaterman, Azusa, Big Pines, Monrovia, Claremont, Diamond Bar and\nDuarte.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 220449"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 2 AM PDT THURSDAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0070.261022T0449Z-261022T0900Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T02:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T06:59:22+00:00"
+}
