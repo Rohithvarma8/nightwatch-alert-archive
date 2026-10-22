@@ -1,0 +1,195 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3160fda968c91c02c1db56ce75dc0f9714fb79bf.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.13,
+          33.85
+        ],
+        [
+          -118.39,
+          33.86
+        ],
+        [
+          -118.45,
+          33.98
+        ],
+        [
+          -118.54,
+          34.04
+        ],
+        [
+          -118.79,
+          34.02
+        ],
+        [
+          -118.88,
+          34.06
+        ],
+        [
+          -118.87,
+          34.24
+        ],
+        [
+          -119.32,
+          34.32
+        ],
+        [
+          -119.4,
+          34.38
+        ],
+        [
+          -119.3,
+          34.55
+        ],
+        [
+          -118.59,
+          34.72
+        ],
+        [
+          -118.13,
+          34.62
+        ],
+        [
+          -117.98,
+          34.28
+        ],
+        [
+          -118.13,
+          33.85
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3160fda968c91c02c1db56ce75dc0f9714fb79bf.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3160fda968c91c02c1db56ce75dc0f9714fb79bf.001.1",
+    "areaDesc": "Santa Clarita Valley; Santa Ynez Mountains Eastern Range; Ventura County Beaches; Ventura County Inland Coast; Lake Casitas; Ojai Valley; Central Ventura County Valleys; Malibu Coast; Los Angeles County Beaches; Los Angeles County Inland Coast including Downtown Los Angeles; Western Santa Monica Mountains Recreational Area; Eastern Santa Monica Mountains Recreational Area; Calabasas and Agoura Hills; Western San Fernando Valley; Eastern San Fernando Valley; Southeastern Ventura County Valleys; Santa Susana Mountains; Southern Ventura County Mountains; Northern Ventura County Mountains; Interstate 5 Corridor; Western San Gabriel Mountains and Highway 14 Corridor; Eastern San Gabriel Mountains; Western Antelope Valley Foothills; Antelope Valley; Los Angeles County San Gabriel Valley",
+    "geocode": {
+      "SAME": [
+        "006037",
+        "006083",
+        "006111"
+      ],
+      "UGC": [
+        "CAZ088",
+        "CAZ352",
+        "CAZ354",
+        "CAZ355",
+        "CAZ356",
+        "CAZ357",
+        "CAZ358",
+        "CAZ362",
+        "CAZ366",
+        "CAZ368",
+        "CAZ369",
+        "CAZ370",
+        "CAZ371",
+        "CAZ372",
+        "CAZ373",
+        "CAZ374",
+        "CAZ375",
+        "CAZ376",
+        "CAZ377",
+        "CAZ378",
+        "CAZ379",
+        "CAZ380",
+        "CAZ381",
+        "CAZ383",
+        "CAZ548"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ088",
+      "https://api.weather.gov/zones/forecast/CAZ352",
+      "https://api.weather.gov/zones/forecast/CAZ354",
+      "https://api.weather.gov/zones/forecast/CAZ355",
+      "https://api.weather.gov/zones/forecast/CAZ356",
+      "https://api.weather.gov/zones/forecast/CAZ357",
+      "https://api.weather.gov/zones/forecast/CAZ358",
+      "https://api.weather.gov/zones/forecast/CAZ362",
+      "https://api.weather.gov/zones/forecast/CAZ366",
+      "https://api.weather.gov/zones/forecast/CAZ368",
+      "https://api.weather.gov/zones/forecast/CAZ369",
+      "https://api.weather.gov/zones/forecast/CAZ370",
+      "https://api.weather.gov/zones/forecast/CAZ371",
+      "https://api.weather.gov/zones/forecast/CAZ372",
+      "https://api.weather.gov/zones/forecast/CAZ373",
+      "https://api.weather.gov/zones/forecast/CAZ374",
+      "https://api.weather.gov/zones/forecast/CAZ375",
+      "https://api.weather.gov/zones/forecast/CAZ376",
+      "https://api.weather.gov/zones/forecast/CAZ377",
+      "https://api.weather.gov/zones/forecast/CAZ378",
+      "https://api.weather.gov/zones/forecast/CAZ379",
+      "https://api.weather.gov/zones/forecast/CAZ380",
+      "https://api.weather.gov/zones/forecast/CAZ381",
+      "https://api.weather.gov/zones/forecast/CAZ383",
+      "https://api.weather.gov/zones/forecast/CAZ548"
+    ],
+    "references": [],
+    "sent": "2026-10-22T09:33:00-07:00",
+    "effective": "2026-10-22T09:33:00-07:00",
+    "onset": "2026-10-22T09:33:00-07:00",
+    "expires": "2026-10-22T11:00:00-07:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Special Weather Statement issued October 22 at 9:33AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "At 929 AM PDT, Doppler radar was tracking isolated to widely\nscattered thunderstorms across a broad portion of Ventura and Los\nAngeles Counties. Movement of this activity was northeast at 30 mph.\n\nHAZARD...Wind gusts up to 50 mph. There is also a small chance for a\nbrief, weak tornado.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nLong Beach...\nThousand Oaks...\nSimi Valley...\nEastern Ventura...\nFillmore...\nMalibu...\nActon...\nOjai...\nEncino...\nInglewood...\nAgoura Hills...\nVenice...\nHollywood...\nVan Nuys...\nAlhambra...\nMount Wilson...\nCulver City...\nUniversal City...\nSanta Clarita...\nand Burbank.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.\n\nTorrential rainfall is also occurring with these storms and may lead\nto localized flooding. Do not drive your vehicle through flooded\nroadways.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "SPSLOX"
+      ],
+      "WMOidentifier": [
+        "WWUS86 KLOX 221633"
+      ],
+      "NWSheadline": [
+        "ISOLATED TO WIDELY SCATTERED STRONG THUNDERSTORMS WILL IMPACT VENTURA AND LOS ANGELES COUNTIES THROUGH 1100 AM PDT"
+      ],
+      "eventMotionDescription": [
+        "2026-10-22T16:31:00-00:00...storm...219DEG...28KT...34.5,-119.3 34.46,-118.36 33.98,-118.27"
+      ],
+      "maxWindGust": [
+        "50 MPH"
+      ],
+      "maxHailSize": [
+        "0.00"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "EAS-ORG": [
+        "WXR"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "SPS"
+      ],
+      "NationalWeatherService": [
+        "SPS"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T17:48:29+00:00"
+}

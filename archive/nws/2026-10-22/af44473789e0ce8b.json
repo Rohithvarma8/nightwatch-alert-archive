@@ -1,0 +1,141 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc3d844ba8cc78a8faad5ccb68bac5411747361c.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.96,
+          35.46
+        ],
+        [
+          -120.91,
+          35.47
+        ],
+        [
+          -120.8,
+          35.41
+        ],
+        [
+          -120.74,
+          35.28
+        ],
+        [
+          -120.68,
+          35.16
+        ],
+        [
+          -120.75,
+          35.14
+        ],
+        [
+          -120.84,
+          35.17
+        ],
+        [
+          -120.92,
+          35.24
+        ],
+        [
+          -120.89,
+          35.38
+        ],
+        [
+          -120.93,
+          35.42
+        ],
+        [
+          -120.98,
+          35.45
+        ],
+        [
+          -120.96,
+          35.46
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fc3d844ba8cc78a8faad5ccb68bac5411747361c.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.fc3d844ba8cc78a8faad5ccb68bac5411747361c.001.1",
+    "areaDesc": "San Luis Obispo, CA",
+    "geocode": {
+      "SAME": [
+        "006079"
+      ],
+      "UGC": [
+        "CAC079"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC079"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3580047f4fa6aeeb5f7fd70205b8ef50324c098b.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.3580047f4fa6aeeb5f7fd70205b8ef50324c098b.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T08:03:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T09:47:00-07:00",
+    "effective": "2026-10-22T09:47:00-07:00",
+    "onset": "2026-10-22T09:47:00-07:00",
+    "expires": "2026-10-22T12:00:00-07:00",
+    "ends": "2026-10-22T12:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 22 at 9:47AM PDT until October 22 at 12:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...West Central San Luis Obispo County in southwestern\nCalifornia...\n\n* WHEN...Until noon PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. Canyon rock and mud slides possible.\n\n* ADDITIONAL DETAILS...\n- At 946 AM PDT, Doppler radar and rain gauges indicated heavy rain\ndue to scattered showers and thunderstorms. Minor flooding is\nongoing or expected to begin shortly in the advisory area.\n- Some locations that will experience flooding include...\nMorro Bay, Baywood-Los Osos, Diablo Canyon, Avila Beach, Cayucos\nand Shell Beach.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.\n\nFlooding is occurring or is imminent. It is important to know where\nyou are relative to streams, rivers, or creeks which can become\nkillers in heavy rains. Campers and hikers should avoid streams or\ncreeks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 221647"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY NOW IN EFFECT UNTIL NOON PDT TODAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXT.KLOX.FA.Y.0073.000000T0000Z-261022T1900Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T12:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.39d5afa13737cdf1af71eed27298aaa3978eb934.001.1,2026-10-22T05:19:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T17:48:29+00:00"
+}

@@ -1,0 +1,133 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e2ff2da7e97e02b7e154b1ba4606b4fb5ba1eaf.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.35,
+          34.46
+        ],
+        [
+          -120.36,
+          34.52
+        ],
+        [
+          -120.32,
+          34.59
+        ],
+        [
+          -120.14,
+          34.7
+        ],
+        [
+          -119.74,
+          34.55
+        ],
+        [
+          -119.78,
+          34.41
+        ],
+        [
+          -119.88,
+          34.4
+        ],
+        [
+          -120.04,
+          34.45
+        ],
+        [
+          -120.13,
+          34.46
+        ],
+        [
+          -120.35,
+          34.46
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7e2ff2da7e97e02b7e154b1ba4606b4fb5ba1eaf.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.7e2ff2da7e97e02b7e154b1ba4606b4fb5ba1eaf.001.1",
+    "areaDesc": "Santa Barbara, CA",
+    "geocode": {
+      "SAME": [
+        "006083"
+      ],
+      "UGC": [
+        "CAC083"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC083"
+    ],
+    "references": [
+      {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2be0ffaa1d7cb6e9bc0ad615e0033cf823b629d9.001.1",
+        "identifier": "urn:oid:2.49.0.1.840.0.2be0ffaa1d7cb6e9bc0ad615e0033cf823b629d9.001.1",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "sent": "2026-10-22T07:32:00-07:00"
+      }
+    ],
+    "sent": "2026-10-22T09:46:00-07:00",
+    "effective": "2026-10-22T09:46:00-07:00",
+    "onset": "2026-10-22T09:46:00-07:00",
+    "expires": "2026-10-22T12:00:00-07:00",
+    "ends": "2026-10-22T12:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 22 at 9:46AM PDT until October 22 at 12:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues. Canyon rock\nand mud slides possible.\n\n* WHERE...West Central Santa Barbara County in southwestern\nCalifornia...\n\n* WHEN...Until noon PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways. Canyon rock and mud slides possible.\n\n* ADDITIONAL DETAILS...\n- At 945 AM PDT, Doppler radar indicated heavy rain due to\nscattered showers and thunderstorms. Minor flooding is ongoing or\nexpected to begin shortly in the advisory area. Canyon rock and\nmud slides possible.\n- Some locations that will experience flooding include...\nSanta Ynez, Solvang, Refugio State Beach, El Capitan State Beach,\nHighway 101 through Gaviota State Park, Isla Vista, Goleta,\nBuellton, Lake Cachuma, Highway 154 over San Marcos Pass and\nSanta Barbara Airport.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 221646"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY NOW IN EFFECT UNTIL NOON PDT TODAY"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.EXT.KLOX.FA.Y.0072.000000T0000Z-261022T1900Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T12:00:00-07:00"
+      ],
+      "expiredReferences": [
+        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8975ab73dbfef7d02f640a3bb529a7cc0466b2dd.001.1,2026-10-22T05:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dc29c7a33d23fb1314f09ee1d0ec99f9c3138701.001.1,2026-10-22T05:15:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T17:48:29+00:00"
+}

@@ -1,0 +1,139 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62d8fa8f5976392e786c2c1d64348f7735a0cc2f.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.67,
+          34.18
+        ],
+        [
+          -118.67,
+          34.17
+        ],
+        [
+          -118.79,
+          34.17
+        ],
+        [
+          -118.93,
+          34.08
+        ],
+        [
+          -118.89,
+          34.18
+        ],
+        [
+          -118.89,
+          34.3
+        ],
+        [
+          -119.02,
+          34.4
+        ],
+        [
+          -119.06,
+          34.42
+        ],
+        [
+          -118.71,
+          34.44
+        ],
+        [
+          -118.64,
+          34.29
+        ],
+        [
+          -118.63,
+          34.25
+        ],
+        [
+          -118.63,
+          34.24
+        ],
+        [
+          -118.67,
+          34.24
+        ],
+        [
+          -118.67,
+          34.18
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.62d8fa8f5976392e786c2c1d64348f7735a0cc2f.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.62d8fa8f5976392e786c2c1d64348f7735a0cc2f.001.1",
+    "areaDesc": "Ventura, CA",
+    "geocode": {
+      "SAME": [
+        "006111"
+      ],
+      "UGC": [
+        "CAC111"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC111"
+    ],
+    "references": [],
+    "sent": "2026-10-22T08:52:00-07:00",
+    "effective": "2026-10-22T08:52:00-07:00",
+    "onset": "2026-10-22T08:52:00-07:00",
+    "expires": "2026-10-22T11:00:00-07:00",
+    "ends": "2026-10-22T11:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 22 at 8:52AM PDT until October 22 at 11:00AM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Urban area and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...East Central Ventura County in southwestern California...\n\n* WHEN...Until 1100 AM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 852 AM PDT, Doppler radar indicated heavy rain due to\nthunderstorms. This will likely cause urban and small stream\nflooding.\n- Some locations that will experience flooding include...\nThousand Oaks, Simi Valley, Fillmore, Moorpark, Oak Park and\nPiru.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nFlooding is occurring or is imminent. It is important to know where\nyou are relative to streams, rivers, or creeks which can become\nkillers in heavy rains. Campers and hikers should avoid streams or\ncreeks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 221552"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 11 AM PDT THIS MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0079.261022T1552Z-261022T1800Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-22T11:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T17:48:29+00:00"
+}
