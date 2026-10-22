@@ -1,0 +1,159 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da51aa6ea4a1f731aa0197975e455c13cd90e831.001.1",
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -121.32,
+          35.75
+        ],
+        [
+          -120.94,
+          35.75
+        ],
+        [
+          -120.65,
+          35.47
+        ],
+        [
+          -120.45,
+          34.99
+        ],
+        [
+          -120.63,
+          34.96
+        ],
+        [
+          -120.65,
+          34.97
+        ],
+        [
+          -120.68,
+          34.94
+        ],
+        [
+          -120.72,
+          34.97
+        ],
+        [
+          -120.73,
+          35.1
+        ],
+        [
+          -120.8,
+          35.1
+        ],
+        [
+          -120.94,
+          35.18
+        ],
+        [
+          -120.98,
+          35.25
+        ],
+        [
+          -120.96,
+          35.38
+        ],
+        [
+          -121.05,
+          35.41
+        ],
+        [
+          -121.21,
+          35.57
+        ],
+        [
+          -121.26,
+          35.58
+        ],
+        [
+          -121.31,
+          35.66
+        ],
+        [
+          -121.29,
+          35.67
+        ],
+        [
+          -121.32,
+          35.75
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.da51aa6ea4a1f731aa0197975e455c13cd90e831.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.da51aa6ea4a1f731aa0197975e455c13cd90e831.001.1",
+    "areaDesc": "San Luis Obispo, CA",
+    "geocode": {
+      "SAME": [
+        "006079"
+      ],
+      "UGC": [
+        "CAC079"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/county/CAC079"
+    ],
+    "references": [],
+    "sent": "2026-10-21T17:13:00-07:00",
+    "effective": "2026-10-21T17:13:00-07:00",
+    "onset": "2026-10-21T17:13:00-07:00",
+    "expires": "2026-10-21T20:00:00-07:00",
+    "ends": "2026-10-21T20:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Los Angeles/Oxnard CA",
+    "headline": "Flood Advisory issued October 21 at 5:13PM PDT until October 21 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Western San Luis Obispo County in southwestern\nCalifornia...\n\n* WHEN...Until 800 PM PDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 512 PM PDT, Doppler radar indicated a line of heavy rain due\nto a multiple thunderstorms. Minor flooding is ongoing or\nexpected to begin shortly in the advisory area.\n- Some locations that will experience flooding include...\nSan Luis Obispo, Morro Bay, Pismo Beach, Atascadero, Arroyo\nGrande, Nipomo, Cambria, Point Piedras Blancas, Grover Beach,\nGuadalupe, Cayucos, Baywood-Los Osos, Diablo Canyon, Templeton,\nHighway 101 over Cuesta Grade, Avila Beach, Santa Margarita,\nShell Beach, Oceano and Hearst Castle.\n- http://www.weather.gov/safety/flood",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.\n\nFlooding is occurring or is imminent. It is important to know where\nyou are relative to streams, rivers, or creeks which can become\nkillers in heavy rains. Campers and hikers should avoid streams or\ncreeks.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "FLSLOX"
+      ],
+      "WMOidentifier": [
+        "WGUS86 KLOX 220013"
+      ],
+      "NWSheadline": [
+        "FLOOD ADVISORY IN EFFECT UNTIL 8 PM PDT THIS EVENING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KLOX.FA.Y.0067.261022T0013Z-261022T0300Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-21T20:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FAY"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-22T01:55:30+00:00"
+}
