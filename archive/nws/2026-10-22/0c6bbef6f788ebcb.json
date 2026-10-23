@@ -1,0 +1,89 @@
+{
+  "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f9ee61b9e1808bd57e06f035ab2ee7a23ce1066.001.1",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0f9ee61b9e1808bd57e06f035ab2ee7a23ce1066.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.0f9ee61b9e1808bd57e06f035ab2ee7a23ce1066.001.1",
+    "areaDesc": "Southern Trinity; Northwestern Interior Mendocino; Northeastern Interior Mendocino; Northern Lake; Northwestern and Central Trinity; Northeastern Trinity",
+    "geocode": {
+      "SAME": [
+        "006105",
+        "006045",
+        "006033"
+      ],
+      "UGC": [
+        "CAZ108",
+        "CAZ110",
+        "CAZ111",
+        "CAZ114",
+        "CAZ116",
+        "CAZ117"
+      ]
+    },
+    "affectedZones": [
+      "https://api.weather.gov/zones/forecast/CAZ108",
+      "https://api.weather.gov/zones/forecast/CAZ110",
+      "https://api.weather.gov/zones/forecast/CAZ111",
+      "https://api.weather.gov/zones/forecast/CAZ114",
+      "https://api.weather.gov/zones/forecast/CAZ116",
+      "https://api.weather.gov/zones/forecast/CAZ117"
+    ],
+    "references": [],
+    "sent": "2026-10-22T21:12:00-07:00",
+    "effective": "2026-10-22T21:12:00-07:00",
+    "onset": "2026-10-24T01:00:00-07:00",
+    "expires": "2026-10-23T16:00:00-07:00",
+    "ends": "2026-10-24T09:00:00-07:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Freeze Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Eureka CA",
+    "headline": "Freeze Watch issued October 22 at 9:12PM PDT until October 24 at 9:00AM PDT by NWS Eureka CA",
+    "description": "* WHAT...Sub-freezing temperatures as low as 25 possible.\n\n* WHERE...Trinity County, Northern Mendocino Interior, and Northern\nLake.\n\n* WHEN...From late Friday night through Saturday morning.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+    "instruction": "Take steps now to protect tender plants from the cold.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+      "AWIPSidentifier": [
+        "NPWEKA"
+      ],
+      "WMOidentifier": [
+        "WWUS76 KEKA 230412"
+      ],
+      "NWSheadline": [
+        "FREEZE WATCH IN EFFECT FROM LATE FRIDAY NIGHT THROUGH SATURDAY MORNING"
+      ],
+      "BLOCKCHANNEL": [
+        "EAS",
+        "NWEM",
+        "CMAS"
+      ],
+      "VTEC": [
+        "/O.NEW.KEKA.FZ.A.0001.261024T0800Z-261024T1600Z/"
+      ],
+      "eventEndingTime": [
+        "2026-10-24T09:00:00-07:00"
+      ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+      "SAME": [
+        "NWS"
+      ],
+      "NationalWeatherService": [
+        "FZA"
+      ]
+    }
+  },
+  "_recorded_at": "2026-10-23T07:23:23+00:00"
+}
